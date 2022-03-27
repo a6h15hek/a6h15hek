@@ -20,7 +20,7 @@ I'm a full-stack developer currently pursuing a Bachelor's Degree in Computer Sc
 ## 🥇 Achievements
 - 🏆 Received Consolation Prize in EG-100 Educational Game Development Hackathon 2021 organized by CDAC Mumbai and IEEE Bombay Section. 
 - 🏆 Finalist in the World’s Biggest Open Innovation Model Smart India Hackathon (SIH) 2020 organized by Ministry of Human Resource Development (MHRD).
-- 🏆 Selected to participate in Finals of Gov-TechThon 2020 Hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India. 
+- 🏆 Finalist in Gov-TechThon 2020 Hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India. 
 - 🏆 Qualified Graduate Aptitude Test in Engineering (GATE) in 2021. 
 
 
