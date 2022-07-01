@@ -4,7 +4,7 @@
 [![DuckDuckGo](https://img.shields.io/badge/-abhishekyadav@duck.com-c14438?style=social&logo=DuckDuckGo&logoColor=red&link=mailto:abhishekyadav@duck.com)](mailto:abhishekyadav@duck.com)
 
 ---
-## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="20px">,
+## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="10px">,
 I'm a full-stack developer currently pursuing a Bachelor's Degree in Computer Science & Engineering. I love building things. I am passionate about building excellent software that improves the lives of those around me. I have done work in web app development, mobile application development, front-end/back-end applications, databases, and Clouds. I am interested and open to collaborating in startups, innovative projects, and job opportunities.
 
 
