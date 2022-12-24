@@ -5,7 +5,7 @@
 
 ---
 ## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="10px">,
-I'm a full-stack developer currently pursuing a Bachelor's Degree in Computer Science & Engineering. I love building things. I am passionate about building excellent software that improves the lives of those around me. I have done work in web app development, mobile application development, front-end/back-end applications, databases, and Clouds. I am interested and open to collaborating in startups, innovative projects, and job opportunities.
+I'm a full-stack developer and Computer science engineer based in Maharashtra, India. I love building things. I am passionate about building excellent things that improves the lives of those around me. My work includes developing mobile application, making web apps and creating backend servers. Interested in the entire fullstack spectrum and working on ambitious projects with same mind people.
 
 
 ## 💎 Technical Skills
