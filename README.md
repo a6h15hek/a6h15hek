@@ -5,13 +5,14 @@
 
 ---
 ## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="10px">,
-I'm a full-stack developer and Computer science engineer based in Maharashtra, India. I love building things. I am passionate about building excellent things that improves the lives of those around me. My work includes developing mobile application, making web apps and creating backend servers. Interested in the entire fullstack spectrum and working on ambitious projects with same mind people.
+I'm a full-stack developer and Computer science engineer based in Maharashtra, India. I love building things and I am passionate about building excellent things that improves the lives of those around me. My work includes developing mobile application, making web apps and creating backend servers. Always interested in the entire fullstack spectrum and working on ambitious projects with same mind people."
+       
 
 
 ## 💎 Technical Skills
 - ✔  Languages :- JavaScript, Core Java, PHP, C++.
 - ✔  Stacks Used :- MERN Stack, LAMP Stack.
-- ✔  Backend Technologies :- ExpressJS, NodeJS, PHP.
+- ✔  Backend Technologies :- Spring Boot, ExpressJS, NodeJS, PHP.
 - ✔  Frontend Technologies :- ReactJS, Android Development, MaterialUI, Bootstrap, XML, HTML5, CSS3.
 - ✔  Database :- SQL DBs, NOSQL DBs, MongoDB, MySQL.
 - ✔  Tools :- Git, GitHub, Postman, Linux, Docker.
