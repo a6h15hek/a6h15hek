@@ -5,7 +5,7 @@
 
 ---
 ## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="10px">,
-I'm a full-stack developer and Computer science engineer based in Maharashtra, India. I love building things and I am passionate about building excellent things that improves the lives of those around me. My work includes developing mobile application, making web apps and creating backend servers. Always interested in the entire fullstack spectrum and working on ambitious projects with same mind people."
+I'm a full-stack developer and Computer science engineer based in Maharashtra, India. I love building things and am passionate about building awesome things that improve the lives of those around me. My work includes developing mobile applications, making web apps, and creating backend servers. Always interested in the full-stack spectrum and working on ambitious projects with same mind people."
        
 
 
