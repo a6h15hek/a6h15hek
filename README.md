@@ -19,6 +19,7 @@ I'm a full-stack developer and Computer science engineer based in Maharashtra, I
 - ✔  Other Skills :- Problem Solving, Leadership, Teamwork, Planning Strategically, Creative Thinking.
 
 ## 🥇 Achievements
+- 🏆 2nd Place Winner in 2022 IEOM Society - 2nd India International Conference Paper Competition.
 - 🏆 Received Cash Prize in EG-100 Educational Game Development Hackathon 2021 organized by CDAC Mumbai and IEEE Bombay Section. 
 - 🏆 Finalist in the World’s Biggest Open Innovation Model Smart India Hackathon (SIH) 2020 organized by Ministry of Human Resource Development (MHRD).
 - 🏆 Finalist in Gov-TechThon 2020 Hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India. 
