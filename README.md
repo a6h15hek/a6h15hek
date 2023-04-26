@@ -5,7 +5,11 @@
 
 ---
 ## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="10px">,
-I'm a full-stack developer and Computer science engineer based in Maharashtra, India. I love building things and am passionate about building awesome things that improve the lives of those around me. My work includes developing mobile applications, making web apps, and creating backend servers. Always interested in the full-stack spectrum and working on ambitious projects with same mind people."
+I am an enthusiastic and talented Full-Stack Developer and Computer Science Engineer based in Maharashtra, India. My passion for technology and love of building innovative solutions has led me to excel in developing mobile applications, creating web apps, and building robust backend servers.
+
+I am driven by the belief that technology has the power to transform people's lives, and I am committed to creating awesome digital solutions that make a difference. I thrive on working on cool projects that challenge me to push the boundaries of what's possible and am always interested in collaborating with like-minded individuals who share my passion for excellence.
+
+If you're looking for a passionate, innovative, and driven Full-Stack Developer to bring your project to life, let's work together and create something truly awesome."
        
 
 
@@ -16,14 +20,14 @@ I'm a full-stack developer and Computer science engineer based in Maharashtra, I
 - ✔  Frontend Technologies :- ReactJS, Android Development, MaterialUI, Bootstrap, XML, HTML5, CSS3.
 - ✔  Database :- SQL DBs, NOSQL DBs, MongoDB, MySQL.
 - ✔  Tools :- Git, GitHub, Postman, Linux, Docker.
-- ✔  Other Skills :- Problem Solving, Leadership, Teamwork, Planning Strategically, Creative Thinking.
+- ✔  Other Skills :- Agile, Problem Solving, Strategic Planning, Leadership, Inventiveness, Teamwork.
 
 ## 🥇 Achievements
-- 🏆 2nd Place Winner in 2022 IEOM Society - 2nd India International Conference Paper Competition.
-- 🏆 Received Cash Prize in EG-100 Educational Game Development Hackathon 2021 organized by CDAC Mumbai and IEEE Bombay Section. 
-- 🏆 Finalist in the World’s Biggest Open Innovation Model Smart India Hackathon (SIH) 2020 organized by Ministry of Human Resource Development (MHRD).
-- 🏆 Finalist in Gov-TechThon 2020 Hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India. 
-- 🏆 Qualified Graduate Aptitude Test in Engineering (GATE) in 2021. 
+- 🏆 Awarded 2nd Place in the 2022 IEOM Society - 2nd India International Conference Paper Competition, showcasing excellence in research and innovation.
+- 🏆 Recognized with a Cash Prize in the EG-100 Educational Game Development Hackathon 2021, hosted by CDAC Mumbai and IEEE Bombay Section, for outstanding game development skills.
+- 🏆 Distinguished as a Finalist in the Smart India Hackathon (SIH) 2020, the world's biggest open innovation model, organized by the Ministry of Human Resource Development (MHRD).
+- 🏆 Honored as a Finalist in Gov-TechThon 2020, hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India, for demonstrating exceptional technological expertise.
+- 🏆 Successfully qualified the Graduate Aptitude Test in Engineering (GATE) in 2021, demonstrating proficiency in engineering concepts and problem-solving abilities.
 
 
 ##  Have Questions || Suggestions ?! 🤔
