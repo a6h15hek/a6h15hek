@@ -7,7 +7,7 @@
 ## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="10px">,
 I am an enthusiastic and talented Full-Stack Developer and Computer Science Engineer based in Maharashtra, India. My passion for technology and love of building innovative solutions has led me to excel in developing mobile applications, creating web apps, and building robust backend servers.
 
-I am driven by the belief that technology has the power to transform people's lives, and I am committed to creating awesome digital solutions that make a difference. I thrive on working on cool projects that challenge me to push the boundaries of what's possible and am always interested in collaborating with like-minded individuals who share my passion for excellence.
+I am driven by the belief that technology has the power to transform people's lives, and I am committed to creating awesome digital solutions that make a difference. I thrive on working on cool projects that challenge me to push the boundaries of what's possible and am always interested in collaborating with like-minded individuals who share my passion for development.
 
 If you're looking for a passionate, innovative, and driven Full-Stack Developer to bring your project to life, let's work together and create something truly awesome."
        
