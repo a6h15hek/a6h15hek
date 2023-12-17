@@ -463,7 +463,12 @@
     },
     {
         "tag" : 45,
-        "className" : "card violet-cd add-width"
+        "className" : "card violet-cd add-width",
+        "component": "TEXTCARD",
+        "metaData": {
+            "extraClass": "text-white",
+            "text": "CRAFT PAPER !!"
+        }
     },
     {
         "tag" : "project4",
@@ -561,7 +566,7 @@
         "className" : "card violet-cd add-width add-height",
         "component" : "INTROCARD",
         "metaData" : {
-            "title": " \"CraftPaper\" | About this Portfolio",
+            "title": "CraftPaper | About this Portfolio",
             "info": "- Crafted a unique digital artwork, not just a portfolio, using Bootstrap icons and handpicked colors. 🎨✨<br/><br/>- Built everything from scratch, making it the first-of-its-kind website on the internet. 🌐🚀<br/><br/>- Applied a monetary layout, adding a touch of financial flair to the site's design. 💰🎨<br/><br/>- Leveraged Firebase for both backend functionality and hosting, bringing cloud-powered magic. ☁️🌟<br/><br/>- Implemented GitHub Actions for automatic build and deployment, making updates a breeze. 🤖✨"
         }
     },
