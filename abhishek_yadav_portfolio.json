@@ -1,0 +1,585 @@
+[
+    {
+        "tag" : "home",
+        "className" : "card yellow-cd",
+        "selectTags": ["hello"],
+        "component" : "ICON_COMPONENT",
+        "metaData" : {
+            "icon" : "bi bi-house-fill"
+        }
+    },
+    {
+        "tag" : "info",
+        "className" : "card",
+        "selectTags" : ["intro"],
+        "component" : "ICON_COMPONENT",
+        "metaData" : {
+            "icon" : "bi bi-info-circle-fill"
+        }
+    },
+    {
+        "tag" : "hello",
+        "className" : "card black-cd add-width",
+        "component" : "HELLOCARD",
+        "metaData" : {
+            "name": "Abhishek Yadav.",
+            "title": "FullStack Developer & Computer Science Engineer"
+        }
+    },
+    {
+        "tag" : "intro",
+        "className" : "card violet-cd add-width add-height",
+        "component" : "INTROCARD",
+        "metaData" : {
+            "title": "Something About me",
+            "info": "I am a Computer Science Engineer and Full-Stack Developer based in Maharashtra, India.<br/><br/> My passion lies in developing exceptional digital solutions that enhance people's lives. My expertise includes developing mobile applications, creating web apps, and building robust backend servers.<br/><br/>I enjoy working on cool projects and am fascinated by the entire full-stack spectrum, from the front-end to the back-end. I have a track record of collaborating with like-minded people to deliver successful solutions that exceed client expectations."
+        }
+    },
+    {
+        "tag" : "diamond",
+        "className" : "card orange-cd",
+        "component" : "ICON_COMPONENT",
+        "selectTags": ["skill1","skill2"],
+        "metaData" : {
+            "icon" : "bi bi-gem"
+        }
+    },
+    {
+        "tag" : "award",
+        "className" : "card violet-cd",
+        "component" : "ICON_COMPONENT",
+        "selectTags": ["achievement1","achievement2"],
+        "metaData" : {
+            "icon" : "bi bi-award-fill"
+        }
+    },
+    {
+        "tag" : "assistant",
+        "className" : "card news-cd add-width",
+        "component": "ASSISTANTCARD",
+        "metaData" : {}
+    },
+    {
+        "tag" : "suicase",
+        "className" : "card red-cd",
+        "component" : "ICON_COMPONENT",
+        "selectTags": ["job1","job2"],
+        "metaData" : {
+            "icon" : "bi bi-briefcase-fill"
+        }
+    },
+    {
+        "tag" : 11,
+        "className" : "card black-cd add-height",
+        "component": "SLIDECLOCK"
+    },
+    {
+        "tag" : "person",
+        "className" : "card cyan-cd",
+        "component" : "ICON_COMPONENT",
+        "selectTags" : ["contact"],
+        "metaData" : {
+            "icon" : "bi bi-person-lines-fill"
+        }
+    },
+    {
+        "tag" : "job1",
+        "className" : "card add-width add-height",
+        "component": "JOBCARD",
+        "metaData": {
+            "extraClass": "underlined-title-black-dash",
+            "timeline": "July 2022 - Present",
+            "location": "Mumbai, Maharashtra",
+            "title": "Software Engineer @JP Morgan Chase & Co.",
+            "info": "- I work as a Full-stack Software Engineer, where my responsibilities include contributing to the development of applications, writing and testing code, debugging issues, and implementing new features that enhance the usability and user-friendliness of the software. <br/><br/>- Overall, my job is to create high-quality software that meets the needs of the end-users and delivers a great user experience."
+        }
+    },
+    {
+        "tag" : "job2",
+        "className" : "card violet-cd add-width add-height",
+        "component": "JOBCARD",
+        "metaData": {
+            "extraClass": "text-white",
+            "timeline": "Jan 2022 - June 2022",
+            "location": "Nagpur, Maharashtra",
+            "title": "Software Developer Intern @Persistent Systems",
+            "info": "- As a Software Developer Intern, I gained hands-on experience working with Spring Boot, React and Database technologies.<br/> <br/>  -  I worked closely with experienced developers, learned best practices for software development. <br/><br/>- By the end of my internship, I had gained a solid foundation in software development and was able to contribute to projects effectively. This experience helped me jumpstart my career as a software developer and prepared me for future opportunities."
+        }
+    },
+    {
+        "tag" : "skill1",
+        "className" : "card yellow-cd add-height",
+        "component": "TECHSKILLCARD2",
+        "metaData" : {
+            "title1": "Software Development",
+            "detail1":"Proficient in both Functional and Object-Oriented Programming",
+            "detail2":"Skilled in developing <b>full-stack</b> applications.",
+            "title2": "Frontend ",
+            "detail3": "Passionate about UI/UX. Experienced in <b>HTML</b>, <b>CSS</b>, <b>JS</b>, <b>React framework</b>.",
+            "detail4":"Can <b>Google</b> better than most of the people."
+        }
+    },
+    {
+        "tag" : 11,
+        "className" : "card orange-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "/aws_cloud_practioner.png",
+            "alt": "platypus"
+        }
+    },
+    {
+        "tag" : 11,
+        "className" : "card add-height"
+    },
+    {
+        "tag" : "kanban",
+        "className" : "card yellow-cd",
+        "component" : "ICON_COMPONENT",
+        "selectTags" : ["project1","project2","project3","project4","project5"],
+        "metaData" : {
+            "icon" : "bi bi-kanban-fill"
+        }
+    },
+    {
+        "tag" : "skill2",
+        "className" : "card black-cd  add-width add-height",
+        "component": "TECHSKILLCARD",
+        "metaData" : {
+            "title": "Things I use.",
+            "tech" : {
+                "Frontend": "ReactJS, Material UI, Bootstrap, HTML/CSS, Android App Development",
+                "Backend": "Spring Boot, ExpressJS, NodeJS",
+                "Stacks": "MERN Stack, LAMP Stack",
+                "Languages" : "JavaScript, Core Java, SQL, C++, PHP, Shell Scripting",
+                "Other Skills" : "Agile, Problem Solving, Strategic Planning, Leadership, Inventiveness, Teamwork"
+            }
+        }
+    },
+    {
+        "tag" : "multicolortext",
+        "className" : "card add-height",
+        "component": "MULTICOLORTEXTCARD"
+    },
+    {
+        "tag" : 9,
+        "className" : "card yellow-cd"
+    },
+    {
+        "tag" : "mail",
+        "className" : "card red-cd",
+        "component" : "ICON_COMPONENT",
+        "metaData" : {
+            "icon" : "bi bi-envelope-check-fill",
+            "task" : {
+                "link": "mailto:abhishekyadav@duck.com",
+                "assistantMsg": "Write Mail!"
+            }
+        }
+    },
+    {
+        "tag" : "contact",
+        "className" : "card black-cd add-width",
+        "component": "CONTACTCARD",
+        "metaData": {
+            "aboutMe" : {
+                "name": "Abhishek Yadav",
+                "title": "Software Developer",
+                "contact": {
+                    "email": { "name": "abhishekyadav@duck.com", "link": "mailto:abhishekyadav@duck.com"},
+                    "website": { "name": "abhishekyadav.website", "link": "abhishekyadav.me"},
+                    "github": { "name": "github/a6h15hek", "link": "https://github.com/a6h15hek"},
+                    "linkdin": { "name": "in/a6h15hek", "link": "https://www.linkedin.com/in/a6h15hek/"}
+                }
+            }
+        }
+    },
+    {
+        "tag" : "solarsystem",
+        "className" : "card black-cd",
+        "component" : "SOLARSYSTEMCARD"
+    },
+    {
+        "tag" : 9,
+        "className" : "card violet-cd",
+        "component" : "ICON_COMPONENT",
+        "selectTags": ["writeme"],
+        "metaData" : {
+            "icon" : "bi bi-pencil-fill"
+        }
+    },
+    {
+        "tag" : "achievement1",
+        "className" : "card violet-cd add-width add-height",
+        "component" : "INTROCARD",
+        "metaData" : {
+            "info": "- I had the honor of being recognized as the first runner-up in the 2022 IEOM Society - 2nd India International Conference Paper Competition, where I showcased excellence in research and innovation.<br/><br/>- I won a cash prize for my outstanding game development skills in the EG-100 Educational Game Development Hackathon 2021, hosted by CDAC Mumbai and IEEE Bombay Section. <br/><br/>-  I reached the finals of the Smart India Hackathon (SIH) 2020, the world's biggest open innovation model organized by the Ministry of Human Resource Development (MHRD), and was distinguished as a finalist for my exceptional skills and contributions."
+        }
+    },
+    {
+        "tag" : "achievement2",
+        "className" : "card red-cd add-width",
+        "component" : "INTROCARD",
+        "metaData" : {
+            "extraClass": "text-black",
+            "info": "- Finalist in Gov-TechThon 2020, Hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India <br/><br/> - Successfully Qualified the Graduate Aptitude Test in Engineering (GATE) in 2021, showcasing exceptional knowledge and expertise in the field."
+        }
+    },
+    {
+        "tag" : 27,
+        "className" : "card india-cd add-width"
+    },
+    {
+        "tag" : 30,
+        "className" : "card red-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "/platypus.png",
+            "alt": "platypus"
+        }
+    },
+    {
+        "tag" : 30,
+        "className" : "card magenta-cd"
+    },
+    {
+        "tag" : "multianimation",
+        "className" : "card black-cd add-width",
+        "component": "MULTIANIMATIONCARD"
+    },
+    {
+        "tag" : 30,
+        "className": "card orange-cd"
+    },
+    {
+        "tag" : 30,
+        "className" : "card red-cd",
+        "component": "CALENDARCARD"
+    },
+    {
+        "tag" : 29,
+        "className" : "card black-cd add-width add-more-height",
+        "component": "TIMELINECARD",
+        "metaData": {
+            "timelines" : [
+                {
+                    "title": "🦖 Dinosaurs Roamed the Earth",
+                    "p": "<p>RAWWWWWWRRR 🐢🦂</p>"
+                },
+                {
+                    "title": "🎂 Born in the year 2000"
+                },
+                {
+                    "title": "🌟 Started Building Things",
+                    "p": "<p>\"was a science freak, created projects for many science exhibitions🔥 </p> "
+                },
+                {
+                    "title": "🖥️ Got my first computer",
+                    "p": "<p>\"Once I got my first computer, the world transformed into a realm of endless possibilities.\" 💡✨ </p> "
+                },
+                {
+                    "title": "🚢 Was Doing Internship",
+                    "p": "<p>\"Exploring the corporate landscape through internships & side projects, discovering how this world in suit works\" 👔👨‍💻</p> "
+                },
+                {
+                    "title": "🎓 Graduated in the year 2022",
+                    "p": "<p>\"Exams may be over, but the thirst for knowledge remains unquenched.\" 🎉.</p> "
+                },
+                {
+                    "title": "💼 Started Full-time Job",
+                    "p": "<p>\"I do job now.\" 🤜💥🤛</p> "
+                }
+            ]
+        }
+    },
+    {
+        "tag" : 30,
+        "className" : "card blue-cd add-width",
+        "component": "TEXTCARD",
+        "selectTags" : ["linkedin"],
+        "metaData": {
+            "text": "Explore my LinkedIn for more professional insights! 🏆🚀"
+        }
+    },
+    {
+        "tag" : "github",
+        "className" : "card magenta-cd",
+        "component" : "ICON_COMPONENT",
+        "metaData" : {
+            "icon" : "bi bi-github",
+            "task" : {
+                "link": "https://github.com/a6h15hek",
+                "assistantMsg": "Opening Github account!"
+            }
+        }
+    },
+    {
+        "tag" : 30,
+        "className" : "card orange-cd"
+    },
+    {
+        "tag" : 30,
+        "className" : "card yellow-cd"
+    },
+    {
+        "tag" : "linkedin",
+        "className" : "card",
+        "component" : "ICON_COMPONENT",
+        "metaData" : {
+            "icon": "bi bi-linkedin",
+            "task" : {
+                "link": "https://www.linkedin.com/in/a6h15hek/",
+                "assistantMsg": "Opening linkedin account!"
+            }
+        }
+    },
+    {
+        "tag" : "resume-msg",
+        "className" : "card gold-cd add-width",
+        "component": "TEXTCARD",
+        "selectTags" : ["resume-link"],
+        "metaData": {
+            "text": "Check out my career map !🗺️🚀 My Resume."
+        }
+    },
+    {
+        "tag" : "resume-link",
+        "className" : "card ",
+        "component" : "ICON_COMPONENT",
+        "metaData" : {
+            "icon" : "bi bi-file-earmark-break-fill",
+            "task" : {
+                "link": "https://a6h15hek.github.io/a6h15hek/abhishek_yadav_resume_2024.pdf",
+                "assistantMsg": "Opening Resume PDF!"
+            }
+        }
+    },
+    {
+        "tag" : 33,
+        "className" : "card red-cd"
+    },
+    {
+        "tag" : 37,
+        "className" : "card teal-cd add-width",
+        "component": "TEXTCARD",
+        "selectTags" : ["github"],
+        "metaData": {
+            "text": "📌 Check out my GitHub for more cool stuff !!"
+        }
+    },
+    {
+        "tag" : "project1",
+        "className" : "card add-width add-height" ,
+        "component" : "PROJECTCARD",
+        "metaData": {
+            "name" : "Bettercode : Virtual Coding Platform.",
+            "nameExtraClass" : "black-cd text-white",
+            "details": "+ A web application that simplifies coding lab practicals for students and teachers with a seamless virtual experience, comprehensive tools, and user-friendly features. Built with <b>ReactJS</b> and <b>Firebase backend</b>, it enhances learning and ensures high-quality education in coding.",
+            "timeline" : "Oct 2021 - Mar 2022",
+            "moreInfo" : "This application was developed as my final year project & I wrote a paper showcasing its unique features and benefits. I was first runner-up in the 2022 IEOM Society - 2nd India International Conference Paper Competition ", 
+            "chip":[
+                {
+                    "title": "paper",
+                    "iconClassName": "bi bi-layers-half",
+                    "link": "https://ieomsociety.org/proceedings/2022india/172.pdf",
+                    "assistantMsg": "Getting more details!"
+                }
+            ]
+        }
+    },
+    {
+        "tag" : 45,
+        "className" : "card blue-cd"
+    },
+    {
+        "tag" : 45,
+        "className" : "card red-cd"
+    },
+    {
+        "tag" : "project2",
+        "className" : "card magenta-cd add-width add-more-height" ,
+        "component" : "PROJECTCARD",
+        "metaData": {
+            "name" : "PHP Satellite Backend App & Dashboard",
+            "nameExtraClass" : "yellow-cd",
+            "details": "+ Created an open-source backend for PHP web hosting and SQL databases, featuring <b>User Account Management APIs</b> (sign-up, login, account management) and <b>document database APIs</b> (like MongoDB). <br/><br/>+ Provides a <b>cost-effective solution for running a backend on inexpensive web hosting</b>, enabling users to easily create dynamic websites without backend coding. <br/><br/>+ It includes a <b>dashboard interface using ReactJS for simplified database and user management by website administrators.<b/>",
+            "timeline" : "April & March of 2021",
+            "moreInfo" : "During my college days, I developed websites for events. Dealing with backend development for each website was time-consuming, so I developed a generic backend that I could reuse for multiple websites.", 
+            "chip":[
+                {
+                    "title": "more",
+                    "iconClassName": "bi bi-caret-right-fill",
+                    "link": "https://github.com/a6h15hek/php-satellite/blob/master/README.md",
+                    "assistantMsg": "Getting more details!"
+                },
+                {
+                    "title": "Github(PHP Satellite)",
+                    "iconClassName": "bi bi-github",
+                    "link": "https://github.com/a6h15hek/php-satellite",
+                    "assistantMsg": "Opening PHP Satellite code repository!"
+                },
+                {
+                    "title": "Github(Satellite Dashboard)",
+                    "iconClassName": "bi bi-github",
+                    "link": "https://github.com/a6h15hek/satellite-dashboard",
+                    "assistantMsg": "Opening PHP Satellite Dashboard code repository!"
+                }
+            ]
+        }
+    },
+    {
+        "tag" : 45,
+        "className" : "card yellow-cd"
+    },
+    {
+        "tag" : 45,
+        "className" : "card green-cd"
+    },
+    {
+        "tag" : "project3",
+        "className" : "card orange-cd add-width add-height" ,
+        "component" : "PROJECTCARD",
+        "metaData": {
+            "name" : "Bingo Minds : An Educational Game",
+            "nameExtraClass" : "yellow-cd",
+            "details": "+ A Multiplayer Online Bingo Game that provides a fun and engaging way for players to learn and test their knowledge on various topics.<br/><br/>+ The game is built using <b>ReactJS</b> and <b>Firebase Database</b>, which allows multiple players to play the game together in real-time.",
+            "timeline" : "December 2021",
+            "moreInfo" : "I developed this project and was awarded a cash prize for it in the EG-100 Educational Game Development Hackathon 2021, hosted by CDAC Mumbai and IEEE Bombay Section.", 
+            "chip":[
+                {
+                    "title": "more",
+                    "iconClassName": "bi bi-caret-right-fill",
+                    "link": "https://github.com/a6h15hek/online-multiplayer-bingo-game/blob/main/README.md",
+                    "assistantMsg": "Getting more details!"
+                },
+                {
+                    "title": "Github",
+                    "iconClassName": "bi bi-github",
+                    "link": "https://github.com/a6h15hek/online-multiplayer-bingo-game",
+                    "assistantMsg": "Opening PHP Satellite code repository!"
+                }
+            ]
+        }
+    },
+    {
+        "tag" : 45,
+        "className" : "card violet-cd add-width"
+    },
+    {
+        "tag" : "project4",
+        "className" : "card yellow-cd add-width add-height" ,
+        "component" : "PROJECTCARD",
+        "metaData": {
+            "name" : "Chatbot Police Assistant for Reporting Crimes",
+            "nameExtraClass" : "magenta-cd text-white",
+            "details": "+ Developed a chatbot that <b>registers complaints from people</b>, similar to a police station. The chatbot <b>collects information by asking questions</b> about the incident, <b>intelligently identifying the type of crime and adapting subsequent questions accordingly.</b> The question flow is dynamic, with each question being determined based on the response to the previous question.<br/>",
+            "timeline" : "August 2020",
+            "moreInfo" : "Developed this project during the 36-hour Smart India Hackathon (SIH) 2020.", 
+            "chip":[
+                {
+                    "title": "more",
+                    "iconClassName": "bi bi-caret-right-fill",
+                    "link": "https://github.com/a6h15hek/CrimeRegistrationChatbot/blob/master/README.md",
+                    "assistantMsg": "Getting more details!"
+                },
+                {
+                    "title": "Github",
+                    "iconClassName": "bi bi-github",
+                    "link": "https://github.com/a6h15hek/CrimeRegistrationChatbot",
+                    "assistantMsg": "Opening PHP Satellite code repository!"
+                }
+            ]
+        }
+    },
+    {
+        "tag" : 45,
+        "className" : "card orange-cd"
+    },
+    {
+        "tag" : 45,
+        "className" : "card yellow-cd"
+    },
+    {
+        "tag" : "project5",
+        "className" : "card red-cd add-width add-height" ,
+        "component" : "PROJECTCARD",
+        "metaData": {
+            "name" : "BunkSquad: Attendance Management & Polling App",
+            "nameExtraClass" : "yellow-cd",
+            "details": "+ Introducing BunkSquad, the ultimate Android application that delivers comprehensive <b>attendance statistical reports</b>, enables seamless real-time <b>attendance management</b>, and empowers users with a robust <b>polling feature</b> for effortless group decision-making across a wide range of topics.<br/><br/>+ The application is built using Android Studio (Java) for the frontend and utilizes Firebase as the backend.",
+            "timeline" : "September 2020 to April 2021",
+            "moreInfo" : "", 
+            "chip":[
+                {
+                    "title": "Download",
+                    "iconClassName": "bi bi-cloud-download",
+                    "link": "https://a6h15hek.github.io/bunksquad-website/",
+                    "assistantMsg": "Opening BunkSquad App Download Page!"
+                }
+            ]
+        }
+    },
+    {
+        "tag" : 39,
+        "className" : "card yellow-cd"
+    },
+    {
+        "tag" : 39,
+        "className" : "card red-cd"
+    },
+    {
+        "tag" : "up",
+        "className" : "card",
+        "component" : "ICON_COMPONENT",
+        "selectTags" : ["hello"],
+        "metaData" : {
+            "icon" : "bi bi-arrow-up-square"
+        }
+    },
+    {
+        "tag" : 39,
+        "className" : "card cyan-cd"
+    },
+    {
+        "tag" : "writeme",
+        "className" : "card yellow-cd add-width add-height",
+        "component": "WRITEMECARD",
+        "metaData" : {
+            "startText" : "📌//If you want to send a note, please write it here, and I will read it. Mention email or link or any contact details if you want. Start with... \n\nHi Abhishek, \n\tI am "
+        }
+    },
+    {
+        "tag" : 45,
+        "className" : "card blue-cd"
+    },
+    {
+        "tag" : 45,
+        "className" : "card yellow-cd"
+    },
+    {
+        "tag" : 45,
+        "className" : "card violet-cd add-width add-height",
+        "component" : "INTROCARD",
+        "metaData" : {
+            "title": " \"unnecessary cards\" | About this Portfolio",
+            "info": "- Crafted a unique digital artwork, not just a portfolio, using Bootstrap icons and handpicked colors. 🎨✨<br/><br/>- Built everything from scratch, making it the first-of-its-kind website on the internet. 🌐🚀<br/><br/>- Applied a monetary layout, adding a touch of financial flair to the site's design. 💰🎨<br/><br/>- Leveraged Firebase for both backend functionality and hosting, bringing cloud-powered magic. ☁️🌟<br/><br/>- Implemented GitHub Actions for automatic build and deployment, making updates a breeze. 🤖✨"
+        }
+    },
+    {
+        "tag" : 45,
+        "className" : "card yellow-cd"
+    },
+    {
+        "tag" : 45,
+        "className" : "card magenta-cd"
+    },
+    {
+        "tag" : 45,
+        "className" : "card teal-cd add-width",
+        "component": "TEXTCARD",
+        "selectTags" : ["github"],
+        "metaData": {
+            "text": "That's a wrap! 🙏"
+        }
+    }
+]
