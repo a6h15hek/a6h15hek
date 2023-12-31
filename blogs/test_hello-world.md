@@ -41,7 +41,7 @@ Here are some emojis to add a bit of fun to our text:
   - Sub-item B
 
 ### Ordered List
-# Lorem Ipsum
+# <mark>Marked text</mark>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac tortor auctor, sollicitudin nisl et, fermentum urna. Nulla facilisi. Integer sed posuere nulla. Duis vel mi et arcu interdum auctor. Proin tristique quam vel dolor malesuada, vel sagittis lectus volutpat.
 
