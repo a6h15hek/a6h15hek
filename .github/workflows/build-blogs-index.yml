@@ -33,7 +33,7 @@ jobs:
         with:
           branch: master
           path: blogIndex.md
-          body: ${{env.INDEX_FILE_CONTENT_VAR}}
+          body: 'Hey \n hi'
           overwrite: 'true'
           committer_name: 'action-system'
           message: 'blogs updated.'
