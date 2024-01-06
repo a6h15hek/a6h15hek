@@ -22,16 +22,15 @@ jobs:
           npm ci
           npm run build-blogindex
           echo "INDEX_FILE_CONTENT=$(cat build/blogIndex.md)" >> $GITHUB_ENV
-          echo "${{ env.INDEX_FILE_CONTENT }} < INDEX_FILE_CONTENT"
           echo "next line"
-          echo "${{ env.INDEX_FILE_CONTENT }}"
+          echo ${{ env.INDEX_FILE_CONTENT }}
 
       - name: Modify test test/overwrite.file.md
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
           branch: master
           path: blogIndex.md
-          body: "{{env.INDEX_FILE_CONTENT}}"
+          body: ${{env.INDEX_FILE_CONTENT}}
           overwrite: 'true'
           committer_name: 'action-system'
           message: 'blogs updated.'
