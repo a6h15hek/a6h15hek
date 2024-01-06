@@ -24,9 +24,7 @@ jobs:
         run: |
           npm ci
           npm run build-blogindex
-          echo "INDEX_FILE_CONTENT_VAR<<EOF" >> $GITHUB_ENV
-          echo $(cat build/blogIndex.md) >> $GITHUB_ENV 
-          echo "EOF" >> $GITHUB_ENV
+          echo "INDEX_FILE_CONTENT_VAR=$(cat build/blogIndex.md)" >> $GITHUB_ENV 
 
       - name: Modify test test/overwrite.file.md
         uses: jaywcjlove/github-action-modify-file-content@main
