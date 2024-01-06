@@ -1,0 +1,14 @@
+{
+  "name": "a6h15hek",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Project to run npm scripts",
+  "scripts": {
+    "build-blogindex": "node scripts/update-blogs.js"
+  },
+  "author": "Abhishek Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "@pspdfkit/nodejs": "^0.0.4"
+  }
+}
