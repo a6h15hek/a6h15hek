@@ -1,0 +1,28 @@
+name: Build and Deploy
+on:
+  push: 
+    branches: 
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    concurrency: ci-${{github.ref}}
+    steps: 
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Configure Node Version
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'v19.3.0'
+
+      - name: Install packages & build.
+        run: |
+          npm ci
+          npm run build-blogindex
+        
+      - name: Create Branch (static-release) and add build files
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
+          branch: master
