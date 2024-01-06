@@ -23,4 +23,7 @@ jobs:
         run: |
           npm ci
           npm run build-blogindex
+          ls 
+          echo "Listing content of buid folder..."
+          ls build
         
