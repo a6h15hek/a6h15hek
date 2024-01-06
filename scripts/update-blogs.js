@@ -1,6 +1,7 @@
 const { writeIndexFile } = require("./util.js");
 
 const BLOGS_FILES_URL = 'https://api.github.com/repos/a6h15hek/a6h15hek/contents/blogs';
+const INDEX_BLOG_FILE_URL = 'https://api.github.com/repos/a6h15hek/a6h15hek/contents/blogIndex.md';
 
 const fetchAllBlogsFile = async (url, result) => {
     try{
@@ -55,7 +56,7 @@ function isJsonString(str) {
 }
 
 function createIndexFileContent(allBlogsYamlProperties = [] ) {
-    fetchGithubFileTextContent(BLOGS_FILES_URL + "/index.md", indexContent => {
+    fetchGithubFileTextContent(INDEX_BLOG_FILE_URL, indexContent => {
         if(indexContent.success && !isJsonString(indexContent.markdown)){
             const {yamlVariables : indexYamlProperties, markdownContent} = parseMarkdownWithYamlFrontmatter(indexContent.markdown);
             if(indexYamlProperties !== null){
@@ -81,7 +82,7 @@ const main = async () => {
     fetchAllBlogsFile(BLOGS_FILES_URL, fileResponse => {
         
         if(fileResponse.success && Array.isArray(fileResponse.blogFilesList)){
-            if(fileResponse.blogFilesList.lenght){
+            if(!fileResponse.blogFilesList.length){
                 createIndexFileContent();
             }
             fileResponse.blogFilesList.forEach(file => {
@@ -95,8 +96,7 @@ const main = async () => {
                             allBlogsYamlProperties.push(yamlProperties);
                             
                             if(allBlogsYamlProperties.length === fileResponse.blogFilesList.length - 1){
-                                //createIndexFileContent(allBlogsYamlProperties);
-                                console.log(allBlogsYamlProperties);
+                                createIndexFileContent(allBlogsYamlProperties);
                             }
                             
                         }else{
