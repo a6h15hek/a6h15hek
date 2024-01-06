@@ -24,16 +24,17 @@ jobs:
         run: |
           npm ci
           npm run build-blogindex
-          echo "INDEX_FILE_CONTENT_VAR=$(cat build/blogIndex.md)" >> $GITHUB_ENV 
+          cat build/blogIndex.md>blogIndex.md
+          cat blogIndex.md
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "a6h15hek"
+          git config --global user.email "a6h15hek@outlook.com"
 
-      - name: Modify test test/overwrite.file.md
-        uses: jaywcjlove/github-action-modify-file-content@main
-        with:
-          branch: master
-          path: blogIndex.md
-          body: 'Hey \n hi'
-          overwrite: 'true'
-          committer_name: 'action-system'
-          message: 'blogs updated.'
+          git commit -m "Blogs updated" blogIndex.md 
+          git push
+
+    
           
         

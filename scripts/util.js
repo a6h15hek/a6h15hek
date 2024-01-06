@@ -15,7 +15,7 @@ const writeIndexFile = async (filename, content) => {
         console.log("Creating new build folder...");
         fs.mkdirSync(path.join(__dirname, rootPath), { recursive: true });
         console.log("Writing file content..");
-        fs.writeFileSync(outputPath, content.replace(/(?:\r\n|\r|\n)/g, '\\n'));
+        fs.writeFileSync(outputPath, content);
     }catch(err){
         console.log(`Error writing file: ${err}`);
     }
