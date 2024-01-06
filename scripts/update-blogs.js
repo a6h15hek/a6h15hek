@@ -62,6 +62,8 @@ function createIndexFileContent(allBlogsYamlProperties = [] ) {
             if(indexYamlProperties !== null){
                 
                 const indexFileText = "---\n" +
+                indexYamlProperties.split("=====")[0].trim() +
+                "\n=====\n" + 
                 allBlogsYamlProperties.join("\n=====\n") +
                 "\n---\n\n" +
                 markdownContent;

@@ -11,10 +11,10 @@ const writeIndexFile = async (filename, content) => {
             console.log("Directory already exists. deleting...");
             fs.rmSync(path.join(__dirname, rootPath),  { recursive: true, force: true });
         }
-            
+
         console.log("Creating new build folder...");
         fs.mkdirSync(path.join(__dirname, rootPath), { recursive: true });
-        console.log("Creating file writing content..");
+        console.log("Writing file content..");
         fs.writeFileSync(outputPath, content);
     }catch(err){
         console.log(`Error writing file: ${err}`);

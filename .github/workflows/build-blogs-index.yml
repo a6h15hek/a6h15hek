@@ -1,8 +1,9 @@
-name: Run js scripts
+name: Build Blogs Index Action
 on:
   push: 
     branches: 
       - master
+      
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -16,13 +17,11 @@ jobs:
         with:
           node-version: 'v19.3.0'
 
-      - name: Install packages & build.
+      - name: Install packages && Running Index content generate script.
         run: |
           npm ci
           npm run build-blogindex
+          ls 
+          echo "Listing content of buid folder..."
+          ls build
         
-      - name: Create Branch (static-release) and add build files
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: build
-          branch: master
