@@ -82,11 +82,11 @@ function createIndexFileContent(allBlogsYamlProperties = [] ) {
 const main = async () => {
     const allBlogsYamlProperties = [];
     fetchAllBlogsFile(BLOGS_FILES_URL, fileResponse => {
-        
-        if(fileResponse.success && Array.isArray(fileResponse.blogFilesList)){
-            if(!fileResponse.blogFilesList.length){
-                createIndexFileContent();
-            }
+        if(!Array.isArray(fileResponse.blogFilesList) || (fileResponse.success && fileResponse.blogFilesList.length === 0)){
+            createIndexFileContent();
+        }
+
+        if(fileResponse.success ){    
             fileResponse.blogFilesList.forEach(file => {
                 fetchGithubFileTextContent(BLOGS_FILES_URL + "/" + file.name, blogResult => {
                     console.log(file.name);
