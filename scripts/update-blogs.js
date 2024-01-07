@@ -66,8 +66,6 @@ const parseMarkdownWithYamlFrontmatter = markdown => {
     }
 };
 
-
-
 function createIndexFileContent(allBlogsYamlProperties = [] ) {
     fetchGithubFileTextContent(INDEX_BLOG_FILE_URL, indexContent => {
         
