@@ -19,9 +19,10 @@ const fetchAllBlogsFile = async (url, result) => {
         const blogFilesList = await response.json();
         if(Array.isArray(blogFilesList)){
             result({success: true, blogFilesList})
+        }else{
+            console.log("Error in fetching file Response.", blogFilesList);
+            result({success: false, message: ""})
         }
-        console.log("Error in fetching file Response.", blogFilesList);
-        result({success: false, message: ""})
     }catch(e){
         console.log("Error in fetching file Response.", e);
         result({success: false, message: e});
@@ -29,15 +30,17 @@ const fetchAllBlogsFile = async (url, result) => {
 };
 
 const fetchGithubFileTextContent = async (url, result) => {
+    console.log("request2");
     try{
         var myRequest = new Request(url, { headers: new Headers({'accept':'application/vnd.github.v3.raw'})});
         const response = await fetch(myRequest);
         const markdown = await response.text();
         if(!isJsonString(markdown)){
             result({success: true, markdown})
+        }else{
+            console.log("Error in fetching file Response.", markdown);
+            result({success: false, message: ""})
         }
-        console.log("Error in fetching file Response.", markdown);
-        result({success: false, message: ""})
     }catch(e){
         console.log("Error in fetching file Response.", e);
         result({success: false, message: e});
@@ -67,7 +70,8 @@ const parseMarkdownWithYamlFrontmatter = markdown => {
 
 function createIndexFileContent(allBlogsYamlProperties = [] ) {
     fetchGithubFileTextContent(INDEX_BLOG_FILE_URL, indexContent => {
-        if(indexContent.success && !isJsonString(indexContent.markdown)){
+        
+        if(indexContent.success){
             const {yamlVariables : indexYamlProperties, markdownContent} = parseMarkdownWithYamlFrontmatter(indexContent.markdown);
             if(indexYamlProperties !== null){
                 
@@ -80,11 +84,12 @@ function createIndexFileContent(allBlogsYamlProperties = [] ) {
 
                 writeIndexFile("blogIndex.md", indexFileText);
                 console.log("final text: \n" + indexFileText);
+                return;
             }else{
                 console.log("Failed: Index Yaml properties are null.", indexContent.message);
             }
         }else{
-            console.log("Failed: Cannot fetch blog files.", indexContent.message);
+            console.log("Failed: Cannot Index blog files.", indexContent.message);
         }
     });
 }
@@ -92,7 +97,7 @@ function createIndexFileContent(allBlogsYamlProperties = [] ) {
 const main = async () => {
     const allBlogsYamlProperties = [];
     fetchAllBlogsFile(BLOGS_FILES_URL, fileResponse => {
-        if(fileResponse.success ){    
+        if(fileResponse.success ){  
             fileResponse.blogFilesList.forEach(file => {
                 fetchGithubFileTextContent(BLOGS_FILES_URL + "/" + file.name, blogResult => {
                     console.log(file.name);
