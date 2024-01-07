@@ -3,9 +3,9 @@ const { writeIndexFile } = require("./util.js");
 const BLOGS_FILES_URL = 'https://api.github.com/repos/a6h15hek/a6h15hek/contents/blogs';
 const INDEX_BLOG_FILE_URL = 'https://api.github.com/repos/a6h15hek/a6h15hek/contents/blogIndex.md';
 
-function isJsonString(str) {
+const isJsonString = async (str) => {
     try {
-        JSON.parse(str);
+        await JSON.parse(str);
     } catch (e) {
         return false;
     }
@@ -30,12 +30,12 @@ const fetchAllBlogsFile = async (url, result) => {
 };
 
 const fetchGithubFileTextContent = async (url, result) => {
-    console.log("request2");
     try{
         var myRequest = new Request(url, { headers: new Headers({'accept':'application/vnd.github.v3.raw'})});
         const response = await fetch(myRequest);
         const markdown = await response.text();
-        if(!isJsonString(markdown)){
+        const isJson  = await isJsonString(markdown);
+        if(!isJson){
             result({success: true, markdown})
         }else{
             console.log("Error in fetching file Response.", markdown);
@@ -97,18 +97,16 @@ function createIndexFileContent(allBlogsYamlProperties = [] ) {
 const main = async () => {
     const allBlogsYamlProperties = [];
     fetchAllBlogsFile(BLOGS_FILES_URL, fileResponse => {
-        if(fileResponse.success ){  
+        if(fileResponse.success){  
             fileResponse.blogFilesList.forEach(file => {
                 fetchGithubFileTextContent(BLOGS_FILES_URL + "/" + file.name, blogResult => {
                     console.log(file.name);
-                    
                     if(blogResult.success){
                         const { yamlVariables : yamlProperties } = parseMarkdownWithYamlFrontmatter(blogResult.markdown);
                         
                         if(yamlProperties !== null){
                             allBlogsYamlProperties.push(yamlProperties);
-                            
-                            if(allBlogsYamlProperties.length === fileResponse.blogFilesList.length - 1){
+                            if(allBlogsYamlProperties.length === fileResponse.blogFilesList.length){
                                 createIndexFileContent(allBlogsYamlProperties);
                             }
                             
