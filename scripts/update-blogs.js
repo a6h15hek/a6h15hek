@@ -3,12 +3,25 @@ const { writeIndexFile } = require("./util.js");
 const BLOGS_FILES_URL = 'https://api.github.com/repos/a6h15hek/a6h15hek/contents/blogs';
 const INDEX_BLOG_FILE_URL = 'https://api.github.com/repos/a6h15hek/a6h15hek/contents/blogIndex.md';
 
+function isJsonString(str) {
+    try {
+        JSON.parse(str);
+    } catch (e) {
+        return false;
+    }
+    return true;
+}
+
 const fetchAllBlogsFile = async (url, result) => {
     try{
         var myRequest = new Request(url, { headers: new Headers({'accept':'application/vnd.github.v3.raw'})});
         const response = await fetch(myRequest);
         const blogFilesList = await response.json();
-        result({success: true, blogFilesList})
+        if(Array.isArray(blogFilesList)){
+            result({success: true, blogFilesList})
+        }
+        console.log("Error in fetching file Response.", blogFilesList);
+        result({success: false, message: ""})
     }catch(e){
         console.log("Error in fetching file Response.", e);
         result({success: false, message: e});
@@ -20,7 +33,11 @@ const fetchGithubFileTextContent = async (url, result) => {
         var myRequest = new Request(url, { headers: new Headers({'accept':'application/vnd.github.v3.raw'})});
         const response = await fetch(myRequest);
         const markdown = await response.text();
-        result({success: true, markdown})
+        if(!isJsonString(markdown)){
+            result({success: true, markdown})
+        }
+        console.log("Error in fetching file Response.", markdown);
+        result({success: false, message: ""})
     }catch(e){
         console.log("Error in fetching file Response.", e);
         result({success: false, message: e});
@@ -46,14 +63,7 @@ const parseMarkdownWithYamlFrontmatter = markdown => {
     }
 };
 
-function isJsonString(str) {
-    try {
-        JSON.parse(str);
-    } catch (e) {
-        return false;
-    }
-    return true;
-}
+
 
 function createIndexFileContent(allBlogsYamlProperties = [] ) {
     fetchGithubFileTextContent(INDEX_BLOG_FILE_URL, indexContent => {
@@ -82,17 +92,12 @@ function createIndexFileContent(allBlogsYamlProperties = [] ) {
 const main = async () => {
     const allBlogsYamlProperties = [];
     fetchAllBlogsFile(BLOGS_FILES_URL, fileResponse => {
-        if(!Array.isArray(fileResponse.blogFilesList) || (fileResponse.success && fileResponse.blogFilesList.length === 0)){
-            createIndexFileContent();
-            return;
-        }
-
         if(fileResponse.success ){    
             fileResponse.blogFilesList.forEach(file => {
                 fetchGithubFileTextContent(BLOGS_FILES_URL + "/" + file.name, blogResult => {
                     console.log(file.name);
                     
-                    if(blogResult.success && !isJsonString(blogResult.markdown)){
+                    if(blogResult.success){
                         const { yamlVariables : yamlProperties } = parseMarkdownWithYamlFrontmatter(blogResult.markdown);
                         
                         if(yamlProperties !== null){
@@ -112,6 +117,8 @@ const main = async () => {
             })
         }else{
             console.log("Failed: Cannot fetch blog files.", fileResponse);
+            console.log("Creating Index file with 0 blog metadata...");
+            createIndexFileContent();
         }
     });
 
