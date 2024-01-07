@@ -84,6 +84,7 @@ const main = async () => {
     fetchAllBlogsFile(BLOGS_FILES_URL, fileResponse => {
         if(!Array.isArray(fileResponse.blogFilesList) || (fileResponse.success && fileResponse.blogFilesList.length === 0)){
             createIndexFileContent();
+            return;
         }
 
         if(fileResponse.success ){    
