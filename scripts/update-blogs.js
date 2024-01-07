@@ -121,7 +121,7 @@ const main = async () => {
                 });
             })
         }else{
-            console.log("Failed: Cannot fetch blog files.", fileResponse);
+            console.log("Failed: Cannot fetch blog files List.", fileResponse);
             console.log("Creating Index file with 0 blog metadata...");
             createIndexFileContent();
         }
