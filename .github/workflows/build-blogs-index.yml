@@ -25,6 +25,7 @@ jobs:
           npm ci
           npm run build-blogindex
           cat build/blogIndex.md>blogIndex.md
+          echo "Updated content of blogIndex.md"
           cat blogIndex.md
       
       - name: Commit and push changes
