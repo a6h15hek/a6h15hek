@@ -22,4 +22,4 @@ I’m a computer science engineer 🎓 and a full stack software developer. I’
 #### Terms and Conditions 📜 
 If you find something that doesn’t seem logical, just think of it as fiction because it’s all about perspective.
 
-Here’s a list of blogs I’ve written so far: 📝
+Here’s a list of blogs I’ve written so far: 📝"
