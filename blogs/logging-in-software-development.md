@@ -128,6 +128,7 @@ public class UserService {
 
 ```
 
+
 Here's how the logs might look in a successful case:
 
 ```plaintext
