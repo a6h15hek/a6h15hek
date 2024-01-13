@@ -29,7 +29,6 @@ jobs:
           cat blogIndex.md
       
       - name: Commit and push changes
-        if: git diff --exit-code 
         run: |
           if ! git diff --exit-code blogIndex.md; then 
             git config --global user.name "a6h15hek"
