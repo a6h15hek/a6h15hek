@@ -29,12 +29,15 @@ jobs:
           cat blogIndex.md
       
       - name: Commit and push changes
+        if: git diff --exit-code 
         run: |
-          git config --global user.name "a6h15hek"
-          git config --global user.email "a6h15hek@outlook.com"
+          if ! git diff --exit-code blogIndex.md; then 
+            git config --global user.name "a6h15hek"
+            git config --global user.email "a6h15hek@outlook.com"
 
-          git commit -m "Blogs updated" blogIndex.md 
-          git push
+            git commit -m "GithubAction: blog index updated" blogIndex.md 
+            git push
+          fi  
 
     
           
