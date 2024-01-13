@@ -9,7 +9,7 @@ draft: true
 ---
 
 
-# *Effective Logging for Functions: A Guide*
+# Effective Logging for Functions: A Guide
 
 Mastering function-level logging is a _crucial_ step towards understanding and implementing comprehensive logging for entire software systems. By focusing on the granular level of functions, we can build a solid foundation that makes scaling up to complex systems a breeze.
 
@@ -39,6 +39,8 @@ Here are five key points to remember when writing logs for a function:
 - **FATAL** - Indicates fatal errors with major impact on user experience.
 - **DEBUG** - Used for debugging. The messaging targets the app’s developers specifically.
 
+<br/>
+
 ## *Best Practices for Function Logging*
 
 **Essential elements in a log string:** Timestamp, ApplicationName, FileName, FunctionName, and LEVEL. 
@@ -63,6 +65,7 @@ By structuring these entries as JSON, we enhance readability and ease of parsing
 
 By adhering to these practices, we can ensure our logs are informative, easy to read, and valuable for debugging.
 
+<br/>
 
 ## *Code Example and Best Practices*
 
@@ -85,7 +88,8 @@ public class UserService {
     }
 
     public int getTotalLikesInLast30Days(String userId) {
-        logger.info("Request received to get all total likes in last 30 days for: {userId: " + userId + "}");
+        logger.info("Request received to get all total likes in last 30 days 
+                for: {userId: " + userId + "}");
         long startTime = System.nanoTime();
 
         try {
@@ -98,7 +102,8 @@ public class UserService {
             }
 
             LocalDate thirtyDaysAgo = LocalDate.now().minus(30, ChronoUnit.DAYS);
-            logger.debug("Fetching posts for user since: {userId: " + userId + ", since: " + thirtyDaysAgo + "}");
+            logger.debug("Fetching posts for user since: {userId: " + userId + ", 
+                    since: " + thirtyDaysAgo + "}");
             List<Post> posts = database.getPostsByUserSince(user, thirtyDaysAgo);
 
             int totalLikes = 0;
@@ -107,9 +112,11 @@ public class UserService {
             }
 
             long endTime = System.nanoTime();
-            long duration = (endTime - startTime);  // compute the elapsed time in nanoseconds
+            // compute the elapsed time in nanoseconds
+            long duration = (endTime - startTime);  
             logger.info("Execution time: {timeInNanoseconds: " + duration + "}");
-            logger.info("Returning total likes in last 30 days for: {userId: " + userId + ", totalLikes: " + totalLikes + "}");
+            logger.info("Returning total likes in last 30 days for: {userId: " + 
+                    userId + ", totalLikes: " + totalLikes + "}");
 
             return totalLikes;
         } catch (Exception e) {
@@ -134,9 +141,7 @@ Here's how the logs might look in a successful case:
 And here's how they might look when an exception occurs, such as when the Post table does not exist:
 
 ```plaintext
-2024-01
-
--07 14:00:00,001 [INFO]  UserService.java:10 [com.example.UserService] (getTotalLikesInLast30Days) : Request received to get all total likes in last 30 days for: {userId: 123}
+2024-01-07 14:00:00,001 [INFO]  UserService.java:10 [com.example.UserService] (getTotalLikesInLast30Days) : Request received to get all total likes in last 30 days for: {userId: 123}
 2024-01-07 14:00:00,002 [DEBUG] UserService.java:12 [com.example.UserService] (getTotalLikesInLast30Days) : Fetching user with id: {userId: 123}
 2024-01-07 14:00:00,010 [DEBUG] UserService.java:18 [com.example.UserService] (getTotalLikesInLast30Days) : Fetching posts for user since: {userId: 123, since: 2023-12-08}
 2024-01-07 14:00:00,015 [ERROR] UserService.java:18 [com.example.UserService] (getTotalLikesInLast30Days) : An error occurred: {message: "Post table does not exist"}
@@ -145,5 +150,7 @@ And here's how they might look when an exception occurs, such as when the Post t
 Packages like *log4j*, *slf4j*, and many others can be used for better management of logs in large software programs. 
 
 Work on making good logs for each function. This will help you make better logs for the whole software.
+
+<br/>
 
 Thank you for reading this blog. _Sayonara!_
