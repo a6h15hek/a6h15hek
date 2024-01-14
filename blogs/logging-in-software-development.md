@@ -2,14 +2,14 @@
 unique_id: ID06-12-2024
 type: blog
 published_on: 6 December 2024
-title: Effective Logging for Functions
-description: This blog shares the best practices for writing logs for a functions.
-keywords: logging,log,logs,java,javascript,best practices, how to write logs
-draft: true
+title: Effective Logging for Function
+description: Explore effective function-level logging with practical tips for clear and insightful logs.
+keywords: logs,best_practices
+draft: false
 ---
 
 
-# Effective Logging for Functions: A Guide
+# Effective Logging for Function
 
 Mastering function-level logging is a _crucial_ step towards understanding and implementing comprehensive logging for entire software systems. By focusing on the granular level of functions, we can build a solid foundation that makes scaling up to complex systems a breeze.
 
