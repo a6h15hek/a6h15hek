@@ -31,7 +31,7 @@ Here are five key points to remember when writing logs for a function:
    - Don’t print everything. Exclude sensitive information, especially when working with user data. For instance, instead of printing the complete user object, try printing only the *userId* or the information that you’re using in your code.
 
 
-### *Remember to log at the correct level:*
+### Remember to log at the correct level:
 
 - **INFO** - Informational messages.
 - **WARN** - Indicates potential problems with no impact on user experience.

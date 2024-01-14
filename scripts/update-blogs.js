@@ -47,7 +47,7 @@ const fetchGithubFileTextContent = async (url, result) => {
     }
 };
 
-const parseMarkdownWithYamlFrontmatter = markdown => {
+const parseMarkdownWithYamlFrontmatter = (markdown, fileName) => {
     const metaRegExp = new RegExp(/^---[\n\r](((?!---).|[\n\r])*)[\n\r]---$/m)
   
     // "rawYamlHeader" is the full matching string, including the --- and ---
@@ -61,7 +61,7 @@ const parseMarkdownWithYamlFrontmatter = markdown => {
     const markdownContent = markdown.replace(rawYamlHeader, "").trim();
 
     return {
-        yamlVariables :yamlVariables.trim(),
+        yamlVariables: yamlVariables.trim() + "\nfilename: " + fileName,
         markdownContent
     }
 };
@@ -100,7 +100,7 @@ const main = async () => {
                 fetchGithubFileTextContent(BLOGS_FILES_URL + "/" + file.name, blogResult => {
                     console.log(file.name);
                     if(blogResult.success){
-                        const { yamlVariables : yamlProperties } = parseMarkdownWithYamlFrontmatter(blogResult.markdown);
+                        const { yamlVariables : yamlProperties } = parseMarkdownWithYamlFrontmatter(blogResult.markdown, file.name);
                         
                         if(yamlProperties !== null){
                             allBlogsYamlProperties.push(yamlProperties);
