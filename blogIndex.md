@@ -8,6 +8,7 @@ title: Effective Logging for Functions
 description: This blog shares the best practices for writing logs for a functions.
 keywords: logging,log,logs,java,javascript,best practices, how to write logs
 draft: true
+filename: logging-in-software-development.md
 ---
 
 # Hello World!! , 
