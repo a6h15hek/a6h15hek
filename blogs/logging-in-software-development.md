@@ -41,7 +41,7 @@ Here are five key points to remember when writing logs for a function:
 
 <br/>
 
-## *Best Practices for Function Logging*
+## Best Practices for Function Logging
 
 **Essential elements in a log string:** Timestamp, ApplicationName, FileName, FunctionName, and LEVEL. 
 
@@ -67,7 +67,7 @@ By adhering to these practices, we can ensure our logs are informative, easy to 
 
 <br/>
 
-## *Code Example and Best Practices*
+## Code Example and Best Practices
 
 While working in a team, it’s important to keep your logs consistent across your program. A good way to do this is to create a logging template for your team. Ask every developer to use the same logging pattern. This way, even if many developers are writing code, the logs will look the same. You can make some example functions with good logging practices in the code. Other developers can look at these examples when they write their own code. Here’s an example:
 
