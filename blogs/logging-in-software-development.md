@@ -1,7 +1,7 @@
 ---
 uniqueId: ID06-12-2024
 type: blog
-published-on: 6 December 2024
+published_on: 6 December 2024
 title: Effective Logging for Functions
 description: This blog shares the best practices for writing logs for a functions.
 keywords: logging,log,logs,java,javascript,best practices, how to write logs
