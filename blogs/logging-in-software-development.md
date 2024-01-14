@@ -1,5 +1,5 @@
 ---
-uniqueId: ID06-12-2024
+unique_id: ID06-12-2024
 type: blog
 published_on: 6 December 2024
 title: Effective Logging for Functions
