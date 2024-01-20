@@ -69,7 +69,11 @@ By adhering to these practices, we can ensure our logs are informative, easy to 
 
 ## Code Example and Best Practices
 
-While working in a team, it’s important to keep your logs consistent across your program. A good way to do this is to create a logging template for your team. Ask every developer to use the same logging pattern. This way, even if many developers are writing code, the logs will look the same. You can make some example functions with good logging practices in the code. Other developers can look at these examples when they write their own code. Here’s an example:
+- **Maintain Log Consistency and Uniformity:** It’s crucial to ensure that the logs remain consistent throughout the program, regardless of the number of developers writing the code. This helps in easier debugging, understanding the flow of operations, and better traceability of code execution.
+- **Create a Logging Template and Use the Same Logging Pattern:** Develop a standard logging template for the entire team and encourage every developer on the team to follow the same logging pattern. This promotes uniformity and makes it easier to read and understand the logs.
+- **Provide and Refer to Example Functions:** Make available some example functions that demonstrate good logging practices in the code. These can serve as a reference for the developers. Allow developers to refer to these examples when they write their own code. This helps them adhere to the established logging practices and maintain consistency.
+
+Here’s an example:
 
 ```java
 import java.time.LocalDate;
