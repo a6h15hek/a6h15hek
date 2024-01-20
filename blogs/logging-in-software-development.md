@@ -16,28 +16,28 @@ Mastering function-level logging is a _crucial_ step towards understanding and i
 Here are five key points to remember when writing logs for a function:
 
 1. **Specify the Log’s Origin:**
-   - Logs should always include details about their origin, such as the *timestamp*, *file name*, and *function name*. This makes debugging easier, as you can query a specific filename and function name to debug that function alone. Each function should narrate its own story.
+   - Always note down where the log is coming from. This includes the time it was created, the name of the file, and the function it’s related to. This helps when you’re trying to fix problems, as you can focus on a specific file or function.
 
 2. **Write with Debugging in Mind:**
-   - Assume that you’ll need to debug every aspect of the function at some point. Write your logs as if an issue has occurred in your function and you now need to debug it.
+   - When you’re writing your logs, think about potential issues that might come up. Write your logs in a way that would help you solve these problems if they were to happen.
 
 3. **Narrate a Story:**
-   - Logs should read like a story that covers everything important without straying from the main topic. Avoid including unnecessary information _(like printing data that isn’t needed)_.
+   - Your logs should be like a story that sticks to the main point but covers all the important details. Each function should have its own story.
 
 4. **Test Your Logs Thoroughly:**
-   - Just as we test our features after development, we should also test our logs. Check how the logs are printed for every failure and success case to ensure they convey the right message. Always review your logs from a debugger’s perspective.
+   - Just like you test your work after you finish it, you should also test your logs. Make sure your logs are showing the right information for both successful and unsuccessful cases. Always look at your logs from the perspective of someone trying to fix a problem.
 
 5. **Avoid Over-Logging:**
-   - Don’t print everything. Exclude sensitive information, especially when working with user data. For instance, instead of printing the complete user object, try printing only the *userId* or the information that you’re using in your code.
+   - Don’t log everything. Leave out sensitive information, especially when dealing with user data. For example, instead of logging all the details about a user, just log the user’s ID or the information you’re using in your code.
 
 
 ### Remember to log at the correct level:
 
-- **INFO** - Informational messages.
-- **WARN** - Indicates potential problems with no impact on user experience.
-- **ERROR** - Indicates serious problems with some impact on user experience.
-- **FATAL** - Indicates fatal errors with major impact on user experience.
-- **DEBUG** - Used for debugging. The messaging targets the app’s developers specifically.
+- **INFO** - Logs non-sensitive details about app's operation.
+- **WARN** - Flags potential issues without affecting user experience.
+- **ERROR** - Signals serious problems affecting user experience.
+- **FATAL** - Marks major errors severely impacting user experience.
+- **DEBUG** - Provides debugging information for developers.
 
 <br/>
 
