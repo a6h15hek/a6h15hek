@@ -8,7 +8,7 @@ title: Effective Logging for Function
 description: Explore effective function-level logging with practical tips for clear and insightful logs.
 keywords: logs,best_practices
 draft: false
-filename: logging-in-software-development.md
+filename: effective-logging-for-functions.md
 ---
 
 # Hello World!! , 
