@@ -1,7 +1,7 @@
 ---
-unique_id: ID06-12-2024
+unique_id: ID06-12-2023
 type: blog
-published_on: 6 December 2024
+published_on: 6 December 2023
 title: Effective Logging for Function
 description: Explore effective function-level logging with practical tips for clear and insightful logs.
 keywords: logs,best_practices
