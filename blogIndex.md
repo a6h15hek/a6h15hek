@@ -1,14 +1,23 @@
 ---
 siteTitle: SuperBlogs
 =====
-unique_id: ID06-12-2024
+unique_id: ID06-12-2023
 type: blog
-published_on: 6 December 2024
+published_on: 6 December 2023
 title: Effective Logging for Function
 description: Explore effective function-level logging with practical tips for clear and insightful logs.
 keywords: logs,best_practices
 draft: false
 filename: effective-logging-for-functions.md
+=====
+unique_id: ID10-02-2024
+type: blog
+published_on: 10 February 2024
+title: The Time Machine
+description: Story of time and space.
+keywords: time, space, thetimemachine
+draft: true
+filename: the-time-machine.md
 ---
 
 # Hello World!! , 
