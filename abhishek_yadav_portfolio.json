@@ -130,7 +130,12 @@
     },
     {
         "tag" : 11,
-        "className" : "card add-height"
+        "className" : "card add-height",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://a6h15hek.github.io/a6h15hek/images/abhishek/blue_shirt.jpeg",
+            "alt": "Vacation Mode"
+        }
     },
     {
         "tag" : "kanban",
