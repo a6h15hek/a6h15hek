@@ -393,8 +393,9 @@
         }
     },
     {
-        "tag" : 45,
-        "className" : "card blue-cd"
+        "tag" : "spnningsquare",
+        "className" : "card black-cd",
+        "component" : "SPINNINGSQUARECARD"
     },
     {
         "tag" : 45,
@@ -566,6 +567,7 @@
         "tag" : 45,
         "className" : "card yellow-cd"
     },
+    
     {
         "tag" : 45,
         "className" : "card violet-cd add-width add-height",
