@@ -16,20 +16,19 @@ Mastering function-level logging is a _crucial_ step towards understanding and i
 Here are five key points to remember when writing logs for a function:
 
 1. **Specify the Log’s Origin:**
-   - Always note down the source of the log. This can include the time it was created, the name of the file, the function it’s related to, and many other details. This is helpful when troubleshooting, as you can focus on a specific file or function.
+   - Always note down the source of the log. This can include the time it was created, the name of the file, the function it’s related to, and many other details. This is helpful when troubleshooting, as developer can focus on a specific file or function.
 
 2. **Write with Debugging in Mind:**
-   - When you’re writing your logs, think about potential issues that might come up. Write your logs in a way that would help you solve these problems if they were to happen.
+   - When writing logs, consider potential issues that might arise. Logs should be written in a manner that would assist in solving these problems, should they occur.
 
 3. **Narrate a Story:**
-   - Your logs should be like a story that adheres to the main point but covers all the important details. Each function should have its own narrative, starting with the arguments it received and ending with the data it returned. The log can include the execution time, any inner functions it called, the input it received, and the output it returned.
+   - Logs should be like a story that adheres to the main point but covers all the important details. Each function should have its own narrative, starting with the arguments it received and ending with the data it returned. The log can include the execution time, any inner functions it called, the input it received, and the output it returned.
 
-4. **Test Your Logs Thoroughly:**
-   - Just like you test your work after you finish it, you should also test your logs. Make sure your logs are showing the right information for both successful and unsuccessful cases. Always look at your logs from the perspective of someone trying to fix a problem.
+4. **Test Logs Thoroughly:**
+   - Just like testing feature after completion, logs should also be tested. Ensure logs are displaying the correct information for both successful and unsuccessful cases. Always view logs from the perspective of someone trying to fix a problem.
 
 5. **Avoid Over-Logging:**
-   - Don’t log everything. Leave out sensitive information, especially when dealing with user data. For example, instead of logging all the details about a user, just log the user’s ID or the information you’re using in your code.
-
+   - Not everything should be logged. Sensitive information, particularly when it pertains to user data, should be omitted. For instance, rather than logging all user details, only the user’s ID or the information utilized in the code should be logged.
 
 ### Remember to log at the correct level:
 
@@ -43,7 +42,7 @@ Here are five key points to remember when writing logs for a function:
 
 ## Best Practices for Function Logging
 
-**Essential elements in a log string:** Timestamp, ApplicationName, FileName, FunctionName, LEVEL, and any other details that you deem important for your application.
+**Essential elements in a log string:** The inclusion of **Timestamp**, **ApplicationName**, **FileName**, **FunctionName**, **LEVEL**, and any other relevant details can significantly enhance the effectiveness of logs for an application. These elements provide crucial context and make it easier to trace the flow of events, especially when debugging or monitoring the application. Remember, the goal is to create logs that are informative and useful, while respecting privacy and security considerations.
 
 **The message should convey:** the intended action, the initiator of the action, and the input and output.
 
@@ -153,7 +152,7 @@ And here's how they might look when an exception occurs, such as when the Post t
 
 Packages like *log4j*, *slf4j*, and many others can be used for better management of logs in large software programs. 
 
-Work on making good logs for each function. This will help you make better logs for the whole software.
+Focusing on creating effective logs for each function can significantly improve the overall quality of logs for the entire software. This approach ensures that each part of the software is well-documented and can facilitate easier debugging and maintenance. Remember, a well-logged function contributes to a well-logged application.
 
 <br/>
 
