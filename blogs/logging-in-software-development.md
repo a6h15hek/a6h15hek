@@ -1,7 +1,7 @@
 ---
-unique_id: ID06-12-2024
+unique_id: ID06-12-2023
 type: blog
-published_on: 6 December 2024
+published_on: 6 December 2023
 title: Effective Logging for Function
 description: Explore effective function-level logging with practical tips for clear and insightful logs.
 keywords: logs,best_practices
@@ -16,20 +16,19 @@ Mastering function-level logging is a _crucial_ step towards understanding and i
 Here are five key points to remember when writing logs for a function:
 
 1. **Specify the Log’s Origin:**
-   - Always note down where the log is coming from. This includes the time it was created, the name of the file, and the function it’s related to. This helps when you’re trying to fix problems, as you can focus on a specific file or function.
+   - Always note down the source of the log. This can include the time it was created, the name of the file, the function it’s related to, and many other details. This is helpful when troubleshooting, as developer can focus on a specific file or function.
 
 2. **Write with Debugging in Mind:**
-   - When you’re writing your logs, think about potential issues that might come up. Write your logs in a way that would help you solve these problems if they were to happen.
+   - When writing logs, consider potential issues that might arise. Logs should be written in a manner that would assist in solving these problems, should they occur.
 
 3. **Narrate a Story:**
-   - Your logs should be like a story that sticks to the main point but covers all the important details. Each function should have its own story.
+   - Logs should be like a story that adheres to the main point but covers all the important details. Each function should have its own narrative, starting with the arguments it received and ending with the data it returned. The log can include the execution time, any inner functions it called, the input it received, and the output it returned.
 
-4. **Test Your Logs Thoroughly:**
-   - Just like you test your work after you finish it, you should also test your logs. Make sure your logs are showing the right information for both successful and unsuccessful cases. Always look at your logs from the perspective of someone trying to fix a problem.
+4. **Test Logs Thoroughly:**
+   - Just like testing feature after completion, logs should also be tested. Ensure logs are displaying the correct information for both successful and unsuccessful cases. Always view logs from the perspective of someone trying to fix a problem.
 
 5. **Avoid Over-Logging:**
-   - Don’t log everything. Leave out sensitive information, especially when dealing with user data. For example, instead of logging all the details about a user, just log the user’s ID or the information you’re using in your code.
-
+   - Not everything should be logged. Sensitive information, particularly when it pertains to user data, should be omitted. For instance, rather than logging all user details, only the user’s ID or the information utilized in the code should be logged.
 
 ### Remember to log at the correct level:
 
@@ -43,7 +42,7 @@ Here are five key points to remember when writing logs for a function:
 
 ## Best Practices for Function Logging
 
-**Essential elements in a log string:** Timestamp, ApplicationName, FileName, FunctionName, and LEVEL. 
+**Essential elements in a log string:** The inclusion of **Timestamp**, **ApplicationName**, **FileName**, **FunctionName**, **LEVEL**, and any other relevant details can significantly enhance the effectiveness of logs for an application. These elements provide crucial context and make it easier to trace the flow of events, especially when debugging or monitoring the application. Remember, the goal is to create logs that are informative and useful, while respecting privacy and security considerations.
 
 **The message should convey:** the intended action, the initiator of the action, and the input and output.
 
@@ -69,7 +68,11 @@ By adhering to these practices, we can ensure our logs are informative, easy to 
 
 ## Code Example and Best Practices
 
-While working in a team, it’s important to keep your logs consistent across your program. A good way to do this is to create a logging template for your team. Ask every developer to use the same logging pattern. This way, even if many developers are writing code, the logs will look the same. You can make some example functions with good logging practices in the code. Other developers can look at these examples when they write their own code. Here’s an example:
+- **Maintain Log Consistency and Uniformity:** It’s crucial to ensure that the logs remain consistent throughout the program, regardless of the number of developers writing the code. This helps in easier debugging, understanding the flow of operations, and better traceability of code execution.
+- **Create a Logging Template and Use the Same Logging Pattern:** Develop a standard logging template for the entire team and encourage every developer on the team to follow the same logging pattern. This promotes uniformity and makes it easier to read and understand the logs.
+- **Provide and Refer to Example Functions:** Make available some example functions that demonstrate good logging practices in the code. These can serve as a reference for the developers. Allow developers to refer to these examples when they write their own code. This helps them adhere to the established logging practices and maintain consistency.
+
+Here’s an example:
 
 ```java
 import java.time.LocalDate;
@@ -149,7 +152,7 @@ And here's how they might look when an exception occurs, such as when the Post t
 
 Packages like *log4j*, *slf4j*, and many others can be used for better management of logs in large software programs. 
 
-Work on making good logs for each function. This will help you make better logs for the whole software.
+Focusing on creating effective logs for each function can significantly improve the overall quality of logs for the entire software. This approach ensures that each part of the software is well-documented and can facilitate easier debugging and maintenance. Remember, a well-logged function contributes to a well-logged application.
 
 <br/>
 
