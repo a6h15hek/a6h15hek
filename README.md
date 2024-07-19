@@ -16,13 +16,13 @@ If you're looking for a passionate, innovative, and driven Full-Stack Developer 
 
 
 ## 💎 Technical Skills
-- ✔  Languages :- JavaScript, Core Java, PHP, C++.
-- ✔  Stacks Used :- MERN Stack, LAMP Stack.
-- ✔  Backend Technologies :- Spring Boot, ExpressJS, NodeJS, PHP.
-- ✔  Frontend Technologies :- ReactJS, Android Development, MaterialUI, Bootstrap, XML, HTML5, CSS3.
-- ✔  Database :- SQL DBs, NOSQL DBs, MongoDB, MySQL.
-- ✔  Tools :- Git, GitHub, Postman, Linux, Docker.
-- ✔  Other Skills :- Agile, Problem Solving, Strategic Planning, Leadership, Inventiveness, Teamwork.
+✔  Languages :- JavaScript, Core Java, PHP, C++.
+✔  Stacks Used :- MERN Stack, LAMP Stack.
+✔  Backend Technologies :- Spring Boot, ExpressJS, NodeJS, PHP.
+✔  Frontend Technologies :- ReactJS, Android Development, MaterialUI, Bootstrap, XML, HTML5, CSS3.
+✔  Database :- SQL DBs, NOSQL DBs, MongoDB, MySQL.
+✔  Tools :- Git, GitHub, Postman, Linux, Docker.
+✔  Other Skills :- Agile, Problem Solving, Strategic Planning, Leadership, Inventiveness, Teamwork.
 
 ## 🥇 Achievements
 - 🏆 Awarded 2nd Place in the 2022 IEOM Society - 2nd India International Conference Paper Competition, showcasing excellence in research and innovation.
