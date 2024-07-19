@@ -16,20 +16,20 @@ If you're looking for a passionate, innovative, and driven Full-Stack Developer 
 
 
 ## 💎 Technical Skills
-✔  Languages :- JavaScript, Core Java, PHP, C++.
-✔  Stacks Used :- MERN Stack, LAMP Stack.
-✔  Backend Technologies :- Spring Boot, ExpressJS, NodeJS, PHP.
-✔  Frontend Technologies :- ReactJS, Android Development, MaterialUI, Bootstrap, XML, HTML5, CSS3.
-✔  Database :- SQL DBs, NOSQL DBs, MongoDB, MySQL.
-✔  Tools :- Git, GitHub, Postman, Linux, Docker.
-✔  Other Skills :- Agile, Problem Solving, Strategic Planning, Leadership, Inventiveness, Teamwork.
+✔  Languages :- JavaScript, Core Java, PHP, C++.\
+✔  Stacks Used :- MERN Stack, LAMP Stack.\
+✔  Backend Technologies :- Spring Boot, ExpressJS, NodeJS, PHP.\
+✔  Frontend Technologies :- ReactJS, Android Development, MaterialUI, Bootstrap, XML, HTML5, CSS3.\
+✔  Database :- SQL DBs, NOSQL DBs, MongoDB, MySQL.\
+✔  Tools :- Git, GitHub, Postman, Linux, Docker.\
+✔  Other Skills :- Agile, Problem Solving, Strategic Planning, Leadership, Inventiveness, Teamwork.\
 
 ## 🥇 Achievements
-- 🏆 Awarded 2nd Place in the 2022 IEOM Society - 2nd India International Conference Paper Competition, showcasing excellence in research and innovation.
-- 🏆 Recognized with a Cash Prize in the EG-100 Educational Game Development Hackathon 2021, hosted by CDAC Mumbai and IEEE Bombay Section, for outstanding game development skills.
-- 🏆 Distinguished as a Finalist in the Smart India Hackathon (SIH) 2020, the world's biggest open innovation model, organized by the Ministry of Human Resource Development (MHRD).
-- 🏆 Honored as a Finalist in Gov-TechThon 2020, hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India, for demonstrating exceptional technological expertise.
-- 🏆 Successfully qualified the Graduate Aptitude Test in Engineering (GATE) in 2021, demonstrating proficiency in engineering concepts and problem-solving abilities.
+🏆 Awarded 2nd Place in the 2022 IEOM Society - 2nd India International Conference Paper Competition, showcasing excellence in research and innovation.\
+🏆 Recognized with a Cash Prize in the EG-100 Educational Game Development Hackathon 2021, hosted by CDAC Mumbai and IEEE Bombay Section, for outstanding game development skills.\
+🏆 Distinguished as a Finalist in the Smart India Hackathon (SIH) 2020, the world's biggest open innovation model, organized by the Ministry of Human Resource Development (MHRD).\
+🏆 Honored as a Finalist in Gov-TechThon 2020, hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India, for demonstrating exceptional technological expertise.\
+🏆 Successfully qualified the Graduate Aptitude Test in Engineering (GATE) in 2021, demonstrating proficiency in engineering concepts and problem-solving abilities.\
 
 
 ##  Have Questions || Suggestions ?! 🤔
