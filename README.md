@@ -29,7 +29,7 @@ If you're looking for a passionate, innovative, and driven Full-Stack Developer 
 🏆 Recognized with a Cash Prize in the EG-100 Educational Game Development Hackathon 2021, hosted by CDAC Mumbai and IEEE Bombay Section, for outstanding game development skills.\
 🏆 Distinguished as a Finalist in the Smart India Hackathon (SIH) 2020, the world's biggest open innovation model, organized by the Ministry of Human Resource Development (MHRD).\
 🏆 Honored as a Finalist in Gov-TechThon 2020, hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India, for demonstrating exceptional technological expertise.\
-🏆 Successfully qualified the Graduate Aptitude Test in Engineering (GATE) in 2021, demonstrating proficiency in engineering concepts and problem-solving abilities.\
+🏆 Successfully qualified the Graduate Aptitude Test in Engineering (GATE) in 2021, demonstrating proficiency in engineering concepts and problem-solving abilities.
 
 
 ##  Have Questions || Suggestions ?! 🤔
