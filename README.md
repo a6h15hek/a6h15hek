@@ -33,7 +33,7 @@ If you're looking for a passionate, innovative, and driven Full-Stack Developer 
 
 
 ##  Have Questions || Suggestions ?! 🤔
-- 📫 How to reach me: message me on [Linkedin](https://www.linkedin.com/in/a6h15hek/) or drop a mail [here](mailto:abhishekyadav@duck.com)
+📫 How to reach me: message me on [Linkedin](https://www.linkedin.com/in/a6h15hek/) or drop a mail [here](mailto:abhishekyadav@duck.com)
 
 ## Thank you for visiting my profile 😊
 ### Feel free to fork and 🌟 repos!!
