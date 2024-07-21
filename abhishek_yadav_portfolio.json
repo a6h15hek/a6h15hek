@@ -91,7 +91,7 @@
             "timeline": "July 2022 - Present",
             "location": "Mumbai, Maharashtra",
             "title": "Software Engineer @JP Morgan Chase & Co.",
-            "info": "- I work as a Full-stack Software Engineer, where my responsibilities include contributing to the development of applications, writing and testing code, debugging issues, and implementing new features that enhance the usability and user-friendliness of the software. <br/><br/>- Overall, my job is to create high-quality software that meets the needs of the end-users and delivers a great user experience."
+            "info": "- I work as a Full-stack Software Engineer, where my responsibilities include contributing to the development of applications and new features, writing and testing code, debugging issues, and implementing new features that enhance the usability and user-friendliness of the software. <br/><br/>- Overall, my job is to create high-quality software that meets the needs of the end-users and delivers a great user experience."
         }
     },
     {
@@ -144,11 +144,11 @@
         "metaData" : {
             "title": "Things I use.",
             "tech" : {
-                "Frontend": "ReactJS, Material UI, Bootstrap, HTML/CSS, Android App Development",
-                "Backend": "Spring Boot, ExpressJS, NodeJS",
+                "Frontend": "Java (Spring Boot), Javascript (NodeJS, ReactJS), SQL & NoSQL Databases",
+                "Backend": "DevOps, Full-Stack, Android Development, Web Development",
                 "Stacks": "MERN Stack, LAMP Stack",
-                "Languages" : "JavaScript, Core Java, SQL, C++, PHP, Shell Scripting",
-                "Other Skills" : "Agile, Problem Solving, Strategic Planning, Leadership, Inventiveness, Teamwork"
+                "Languages" : "Shell Scripting, GIT, Linux, PHP",
+                "Other Skills" : "Inventiveness, Planning, Teamwork"
             }
         }
     },
@@ -183,7 +183,7 @@
                 "title": "Software Developer",
                 "contact": {
                     "email": { "name": "abhishekyadav@duck.com", "link": "mailto:abhishekyadav@duck.com"},
-                    "website": { "name": "abhishekyadav.website", "link": "abhishekyadav.me"},
+                    "website": { "name": "portfolio/abhishekyadav", "link": "https://abhishek-me.web.app/"},
                     "github": { "name": "github/a6h15hek", "link": "https://github.com/a6h15hek"},
                     "linkdin": { "name": "in/a6h15hek", "link": "https://www.linkedin.com/in/a6h15hek/"}
                 }
@@ -209,7 +209,7 @@
         "className" : "card violet-cd add-width add-height",
         "component" : "INTROCARD",
         "metaData" : {
-            "info": "- I had the honor of being recognized as the first runner-up in the 2022 IEOM Society - 2nd India International Conference Paper Competition, where I showcased excellence in research and innovation.<br/><br/>- As a team lead, I helped secure a prize at the EG-100 Educational Game Development Hackathon 2021, organized by CDAC Mumbai and IEEE Bombay Section. <br/><br/>-  I led a team to the finals of the Smart India Hackathon (SIH) 2020, a major innovation event organized by the Ministry of Human Resource Development (MHRD)."
+            "info": "- Recognized as the first runner-up in the 2022 IEOM Society - 2nd India International Conference Paper Competition for excellence in research and innovation.<br/><br/>- As a team lead, secured a prize at the EG-100 Educational Game Development Hackathon 2021, organized by CDAC Mumbai and IEEE Bombay Section, with a team of 3 people.<br/><br/>- Led a team of 4 people to the finals of the Smart India Hackathon (SIH) 2020, organized by the Ministry of Human Resource Development (MHRD)."
         }
     },
     {
