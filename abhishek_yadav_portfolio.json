@@ -91,7 +91,7 @@
             "timeline": "July 2022 - Present",
             "location": "Mumbai, Maharashtra",
             "title": "Software Developer II @JP Morgan Chase & Co.",
-            "title-class": "yellow-cd",
+            "titleClass": "yellow-cd",
             "info": "- I work as a Full-stack Software Engineer, where my responsibilities include contributing to the development of applications and new features, writing and testing code, debugging issues, and implementing new features that enhance the usability and user-friendliness of the software. <br/><br/>- Overall, my job is to create high-quality software that meets the needs of the end-users and delivers a great user experience."
         }
     },
@@ -104,7 +104,7 @@
             "timeline": "Jan 2022 - June 2022",
             "location": "Nagpur, Maharashtra",
             "title": "Software Developer Intern @Persistent Systems",
-            "title-class": "black-cd text-white",
+            "titleClass": "black-cd text-white",
             "info": "- As a Software Developer Intern, I gained hands-on experience working with Spring Boot, React and Database technologies.<br/> <br/>  -  I worked closely with experienced developers, learned best practices for software development. <br/><br/>- By the end of my internship, I had gained a solid foundation in software development and was able to contribute to projects effectively. This experience helped me jumpstart my career as a software developer and prepared me for future opportunities."
         }
     },
