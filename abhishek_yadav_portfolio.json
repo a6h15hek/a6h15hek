@@ -144,10 +144,10 @@
         "metaData" : {
             "title": "Things I use.",
             "tech" : {
-                "Frontend": "Java (Spring Boot), Javascript (NodeJS, ReactJS), SQL & NoSQL Databases",
+                "Frontend": "Java (Spring Boot), Javascript (NodeJS | ReactJS), SQL & NoSQL Databases",
                 "Backend": "DevOps, Full-Stack, Android Development, Web Development",
                 "Stacks": "MERN Stack, LAMP Stack",
-                "Languages" : "Shell Scripting, GIT, Linux, PHP",
+                "Languages" : "Shell Scripting, GIT, Linux, PHP, C/C++",
                 "Other Skills" : "Inventiveness, Planning, Teamwork"
             }
         }
@@ -517,6 +517,46 @@
                     "iconClassName": "bi bi-cloud-download",
                     "link": "https://a6h15hek.github.io/bunksquad-website/",
                     "assistantMsg": "Opening BunkSquad App Download Page!"
+                }
+            ]
+        }
+    },
+    {
+        "tag" : "project6",
+        "className" : "card yellow-cd add-width add-height" ,
+        "component" : "PROJECTCARD",
+        "metaData": {
+            "name" : "Pancake Project Management Tool",
+            "nameExtraClass" : "yellow-cd",
+            "details": "+ Pancake is a versatile tool designed to streamline your project management workflow. It simplifies running web and server modules, monitors application status, and offers customizable project locations and override files. Best of all, you can run and open projects from anywhere!",
+            "timeline" : "March 2024",
+            "moreInfo" : "Created for personal project management, it is helpful in remote syncing, building, running multiple projects.", 
+            "chip":[
+                {
+                    "title": "Github",
+                    "iconClassName": "bi bi-github",
+                    "link": "https://github.com/a6h15hek/pancake",
+                    "assistantMsg": "Opening pancake code repository!"
+                }
+            ]
+        }
+    },
+    {
+        "tag" : "project7",
+        "className" : "card violet-cd add-width add-height" ,
+        "component" : "PROJECTCARD",
+        "metaData": {
+            "name" : "Just Ultimate Neural Enhancer - Dynamic Enigma Vortex Generating Predictive Technology (June DevGPT++)",
+            "nameExtraClass" : "yellow-cd",
+            "details": "+ This application leverages ChatGPT to provide a versatile set of system prompts. Users can select different modes such as conversation mode, developer question mode, code refactor mode, SQL command writer mode, and more. Simply choose a mode, input your query, and receive a response from ChatGPT.",
+            "timeline" : "March 2024",
+            "moreInfo" : "<b>+ Feature</b><br/><b>Conversation Mode:</b> Engage in natural, human-like conversations.<br/><b>Developer Question Mode:</b> Get answers to technical questions.<br/><b>Code Refactor Mode:</b> Improve and optimize your code.<br/><b>SQL Command Writer Mode:</b> Generate SQL commands based on your requirements.<br/><b>And Many More:</b> Explore various modes to suit your needs.", 
+            "chip":[
+                {
+                    "title": "Github",
+                    "iconClassName": "bi bi-github",
+                    "link": "https://github.com/a6h15hek/june-devgpt-desktop",
+                    "assistantMsg": "Opening june June DevGPT++ code repository!"
                 }
             ]
         }
