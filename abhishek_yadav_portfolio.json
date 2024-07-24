@@ -245,10 +245,6 @@
     },
     {
         "tag" : 30,
-        "className": "card orange-cd"
-    },
-    {
-        "tag" : 30,
         "className" : "card red-cd",
         "component": "CALENDARCARD"
     },
@@ -495,10 +491,6 @@
     },
     {
         "tag" : 45,
-        "className" : "card orange-cd"
-    },
-    {
-        "tag" : 45,
         "className" : "card yellow-cd"
     },
     {
@@ -523,7 +515,7 @@
     },
     {
         "tag" : "project6",
-        "className" : "card yellow-cd add-width add-height" ,
+        "className" : "card orange-cd add-width add-height" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "Pancake Project Management Tool",
@@ -543,14 +535,14 @@
     },
     {
         "tag" : "project7",
-        "className" : "card violet-cd add-width add-height" ,
+        "className" : "card magenta-cd add-width add-more-height" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "Just Ultimate Neural Enhancer - Dynamic Enigma Vortex Generating Predictive Technology (June DevGPT++)",
             "nameExtraClass" : "yellow-cd",
-            "details": "+ This application leverages ChatGPT to provide a versatile set of system prompts. Users can select different modes such as conversation mode, developer question mode, code refactor mode, SQL command writer mode, and more. Simply choose a mode, input your query, and receive a response from ChatGPT.",
-            "timeline" : "March 2024",
-            "moreInfo" : "<b>+ Feature</b><br/><b>Conversation Mode:</b> Engage in natural, human-like conversations.<br/><b>Developer Question Mode:</b> Get answers to technical questions.<br/><b>Code Refactor Mode:</b> Improve and optimize your code.<br/><b>SQL Command Writer Mode:</b> Generate SQL commands based on your requirements.<br/><b>And Many More:</b> Explore various modes to suit your needs.", 
+            "details": "+ This application leverages ChatGPT to provide a versatile set of system prompts. Users can select different modes such as conversation mode, developer question mode, code refactor mode, SQL command writer mode, and more. Simply choose a mode, input your query, and receive a response from ChatGPT. <br/><b>+ Feature</b><br/><b>Conversation Mode:</b> Engage in natural, human-like conversations.<br/><b>Developer Question Mode:</b> Get answers to technical questions.<br/><b>Code Refactor Mode:</b> Improve and optimize your code.<br/><b>SQL Command Writer Mode:</b> Generate SQL commands based on your requirements.<br/><b>And Many More:</b> Explore various modes to suit your needs.",
+            "timeline" : "July 2024",
+            "moreInfo" : "", 
             "chip":[
                 {
                     "title": "Github",
