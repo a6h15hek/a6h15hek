@@ -84,25 +84,27 @@
     },
     {
         "tag" : "job1",
-        "className" : "card add-width add-height",
+        "className" : "card magenta-cd add-width add-height",
         "component": "JOBCARD",
         "metaData": {
             "extraClass": "underlined-title-black-dash",
             "timeline": "July 2022 - Present",
             "location": "Mumbai, Maharashtra",
             "title": "Software Developer II @JP Morgan Chase & Co.",
+            "title-bg": "yellow-cd",
             "info": "- I work as a Full-stack Software Engineer, where my responsibilities include contributing to the development of applications and new features, writing and testing code, debugging issues, and implementing new features that enhance the usability and user-friendliness of the software. <br/><br/>- Overall, my job is to create high-quality software that meets the needs of the end-users and delivers a great user experience."
         }
     },
     {
         "tag" : "job2",
-        "className" : "card violet-cd add-width add-height",
+        "className" : "card cyan-cd add-width add-height",
         "component": "JOBCARD",
         "metaData": {
             "extraClass": "text-white",
             "timeline": "Jan 2022 - June 2022",
             "location": "Nagpur, Maharashtra",
             "title": "Software Developer Intern @Persistent Systems",
+            "title-bg": "black-cd text-white",
             "info": "- As a Software Developer Intern, I gained hands-on experience working with Spring Boot, React and Database technologies.<br/> <br/>  -  I worked closely with experienced developers, learned best practices for software development. <br/><br/>- By the end of my internship, I had gained a solid foundation in software development and was able to contribute to projects effectively. This experience helped me jumpstart my career as a software developer and prepared me for future opportunities."
         }
     },
@@ -540,7 +542,7 @@
         "metaData": {
             "name" : "Just Ultimate Neural Enhancer - Dynamic Enigma Vortex Generating Predictive Technology (June DevGPT++)",
             "nameExtraClass" : "yellow-cd",
-            "details": "+ This application leverages ChatGPT to provide a versatile set of system prompts. Users can select different modes such as conversation mode, developer question mode, code refactor mode, SQL command writer mode, and more. Simply choose a mode, input your query, and receive a response from ChatGPT. <br/><b>+ Feature</b><br/><b>Conversation Mode:</b> Engage in natural, human-like conversations.<br/><b>Developer Question Mode:</b> Get answers to technical questions.<br/><b>Code Refactor Mode:</b> Improve and optimize your code.<br/><b>SQL Command Writer Mode:</b> Generate SQL commands based on your requirements.<br/><b>And Many More:</b> Explore various modes to suit your needs.",
+            "details": "+ This application leverages ChatGPT to provide a versatile set of system prompts. Users can select different modes such as conversation mode, developer question mode, code refactor mode, SQL command writer mode, and more. Simply choose a mode, input your query, and receive a response from ChatGPT. <br/><br/>+ Feature<br/><b>- Conversation Mode:</b> Engage in natural, human-like conversations.<br/><b>- Developer Question Mode:</b> Get answers to technical questions.<br/><b>- Code Refactor Mode:</b> Improve and optimize your code.<br/><b>- SQL Command Writer Mode:</b> Generate SQL commands based on your requirements.<br/><b>- And Many More:</b> Explore various modes to suit your needs.",
             "timeline" : "July 2024",
             "moreInfo" : "", 
             "chip":[
