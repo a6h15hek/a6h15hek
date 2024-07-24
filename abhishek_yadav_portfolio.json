@@ -232,7 +232,7 @@
         "className" : "card red-cd",
         "component": "IMAGECARD",
         "metaData": {
-            "src": "/platypus.png",
+            "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/platypus.png",
             "alt": "platypus"
         }
     },
