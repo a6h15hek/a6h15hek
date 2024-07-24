@@ -60,12 +60,21 @@
         "metaData" : {}
     },
     {
-        "tag" : "suicase",
+        "tag" : "suitcase",
         "className" : "card red-cd",
         "component" : "ICON_COMPONENT",
         "selectTags": ["job1","job2"],
         "metaData" : {
             "icon" : "bi bi-briefcase-fill"
+        }
+    },
+    {
+        "tag" : "flower",
+        "className" : "card violet-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://pixabay.com/get/g26e9593f4e7657142fce475573f747bc65c4ec3ed6543f82efa52a40f5df191ceb61706548df7980e7c04ca496c7a531.svg",
+            "alt": "flower"
         }
     },
     {
@@ -160,10 +169,6 @@
         "component": "MULTICOLORTEXTCARD"
     },
     {
-        "tag" : 9,
-        "className" : "card yellow-cd"
-    },
-    {
         "tag" : "mail",
         "className" : "card red-cd",
         "component" : "ICON_COMPONENT",
@@ -228,7 +233,7 @@
         "className" : "card india-cd add-width"
     },
     {
-        "tag" : 30,
+        "tag" : "platypus",
         "className" : "card red-cd",
         "component": "IMAGECARD",
         "metaData": {
@@ -312,8 +317,22 @@
         "className" : "card orange-cd"
     },
     {
-        "tag" : 30,
-        "className" : "card yellow-cd"
+        "tag" : "om",
+        "className" : "card magenta-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://pixabay.com/get/ge5d5b5c4139176806391c7d02d642ed43e7aef044d279f84d29ca149cd9546b515b98fac6ee3933cf4f1fea5f1962fb1.svg",
+            "alt": "om"
+        }
+    },
+    {
+        "tag" : "frame",
+        "className" : "card yellow-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://pixabay.com/get/gbdbf1c19f0b6a9f056ed55725b89e3d2b76516878d0c4740a9ad4701c68bf80f06d291c4b190d3431935c089a6630c61.svg",
+            "alt": "frame"
+        }
     },
     {
         "tag" : "linkedin",
@@ -387,8 +406,13 @@
         "component" : "SPINNINGSQUARECARD"
     },
     {
-        "tag" : 45,
-        "className" : "card red-cd"
+        "tag" : "frame",
+        "className" : "card yellow-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://pixabay.com/get/ge9d0ece992e2d0c3f27ce485cfdbf17315e01b4d848dbf1f814f9202b07160acabebe5368f3ff9f7a4f005999e933914_640.png",
+            "alt": "frame"
+        }
     },
     {
         "tag" : "project2",
@@ -427,8 +451,13 @@
         "className" : "card yellow-cd"
     },
     {
-        "tag" : 45,
-        "className" : "card green-cd"
+        "tag" : "frame",
+        "className" : "card violet-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://pixabay.com/get/g96d389b856b91166a88c8cc15bee8cd7e0e644294b659c3600ed625960e855e16a133481b9489ebe7aebf4caa934c592_640.png",
+            "alt": "frame"
+        }
     },
     {
         "tag" : "project3",
@@ -494,6 +523,15 @@
     {
         "tag" : 45,
         "className" : "card yellow-cd"
+    },
+    {
+        "tag" : "tulip",
+        "className" : "card cyan-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://pixabay.com/get/g931ccee4807f5608c095d1291d2eb1ce05dd4457477a53e5cf3d68b5d7cce5eea7bd14450b76b8ec75871beb4889bed1_640.png",
+            "alt": "tulip"
+        }
     },
     {
         "tag" : "project5",
@@ -574,8 +612,13 @@
         }
     },
     {
-        "tag" : 39,
-        "className" : "card cyan-cd"
+        "tag" : "web",
+        "className" : "card cyan-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://pixabay.com/get/g8f42cde79280fe6eb51d986ddd273aa8a190fc10064f74b9ffa4f75c36e7430052874b51b33670e51af210aa793358b6.svg",
+            "alt": "web"
+        }
     },
     {
         "tag" : "writeme",
@@ -604,8 +647,13 @@
         }
     },
     {
-        "tag" : 45,
-        "className" : "card yellow-cd"
+        "tag" : "circle",
+        "className" : "card yellow-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://pixabay.com/get/g5bcf598a6d5fe0a1e2aae580ebe2950e4bc1baccef9a71b40d307936e74ca1cb32a239bae517a0d5ff206689661c3b28.svg",
+            "alt": "circle"
+        }
     },
     {
         "tag" : 45,
