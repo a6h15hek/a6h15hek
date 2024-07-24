@@ -87,7 +87,7 @@
         "className" : "card magenta-cd add-width add-height",
         "component": "JOBCARD",
         "metaData": {
-            "extraClass": "underlined-title-black-dash",
+            "extraClass": "underlined-title-black-dash text-black",
             "timeline": "July 2022 - Present",
             "location": "Mumbai, Maharashtra",
             "title": "Software Developer II @JP Morgan Chase & Co.",
@@ -100,7 +100,7 @@
         "className" : "card cyan-cd add-width add-height",
         "component": "JOBCARD",
         "metaData": {
-            "extraClass": "text-white",
+            "extraClass": "text-black",
             "timeline": "Jan 2022 - June 2022",
             "location": "Nagpur, Maharashtra",
             "title": "Software Developer Intern @Persistent Systems",
