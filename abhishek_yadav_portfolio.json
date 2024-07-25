@@ -68,15 +68,7 @@
             "icon" : "bi bi-briefcase-fill"
         }
     },
-    {
-        "tag" : "flower",
-        "className" : "card violet-cd",
-        "component": "IMAGECARD",
-        "metaData": {
-            "src": "https://pixabay.com/get/g26e9593f4e7657142fce475573f747bc65c4ec3ed6543f82efa52a40f5df191ceb61706548df7980e7c04ca496c7a531.svg",
-            "alt": "flower"
-        }
-    },
+
     {
         "tag" : 11,
         "className" : "card black-cd add-height",
@@ -169,6 +161,15 @@
         "component": "MULTICOLORTEXTCARD"
     },
     {
+        "tag" : "flower",
+        "className" : "card violet-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://pixabay.com/get/g26e9593f4e7657142fce475573f747bc65c4ec3ed6543f82efa52a40f5df191ceb61706548df7980e7c04ca496c7a531.svg",
+            "alt": "flower"
+        }
+    },
+    {
         "tag" : "mail",
         "className" : "card red-cd",
         "component" : "ICON_COMPONENT",
@@ -243,17 +244,13 @@
     },
     {
         "tag" : 30,
-        "className" : "card magenta-cd"
+        "className" : "card red-cd",
+        "component": "CALENDARCARD"
     },
     {
         "tag" : "multianimation",
         "className" : "card black-cd add-width",
         "component": "MULTIANIMATIONCARD"
-    },
-    {
-        "tag" : 30,
-        "className" : "card red-cd",
-        "component": "CALENDARCARD"
     },
     {
         "tag" : 29,
@@ -313,17 +310,8 @@
         }
     },
     {
-        "tag" : 30,
-        "className" : "card orange-cd"
-    },
-    {
-        "tag" : "om",
-        "className" : "card magenta-cd",
-        "component": "IMAGECARD",
-        "metaData": {
-            "src": "https://pixabay.com/get/ge5d5b5c4139176806391c7d02d642ed43e7aef044d279f84d29ca149cd9546b515b98fac6ee3933cf4f1fea5f1962fb1.svg",
-            "alt": "om"
-        }
+        "tag" : 33,
+        "className" : "card red-cd"
     },
     {
         "tag" : "frame",
@@ -368,8 +356,13 @@
         }
     },
     {
-        "tag" : 33,
-        "className" : "card red-cd"
+        "tag" : "om",
+        "className" : "card magenta-cd",
+        "component": "IMAGECARD",
+        "metaData": {
+            "src": "https://pixabay.com/get/ge5d5b5c4139176806391c7d02d642ed43e7aef044d279f84d29ca149cd9546b515b98fac6ee3933cf4f1fea5f1962fb1.svg",
+            "alt": "om"
+        }
     },
     {
         "tag" : 37,
