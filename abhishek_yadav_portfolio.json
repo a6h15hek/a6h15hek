@@ -27,6 +27,15 @@
         }
     },
     {
+        "tag" : "info",
+        "className" : "card gold-cd",
+        "selectTags" : ["intro"],
+        "component" : "TEXTCARD",
+        "metaData": {
+            "text": "Try clicking on square icons. 🧐"
+        }
+    },
+    {
         "tag" : "intro",
         "className" : "card violet-cd add-width add-height",
         "component" : "INTROCARD",
@@ -110,6 +119,19 @@
         }
     },
     {
+        "tag" : "college",
+        "className" : "card teal-cd add-width",
+        "component": "JOBCARD",
+        "metaData": {
+            "extraClass": "text-black",
+            "timeline": "July 2018 - June 2022",
+            "location": "Nagpur, Maharashtra",
+            "title": "B.E in Computer Science, Yeshwantrao Chavan College of Engineering Nagpur",
+            "titleClass": "black-cd text-white",
+            "info": "- CGPA: 8.56/10"
+        }
+    },
+    {
         "tag" : "skill1",
         "className" : "card yellow-cd add-height",
         "component": "TECHSKILLCARD2",
@@ -161,12 +183,12 @@
         "component": "MULTICOLORTEXTCARD"
     },
     {
-        "tag" : "chamelen",
+        "tag" : "chameleon",
         "className" : "card violet-cd",
         "component": "IMAGECARD",
         "metaData": {
             "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/chamelen.svg",
-            "alt": "chamelen"
+            "alt": "chameleon"
         }
     },
     {
@@ -210,23 +232,6 @@
         "selectTags": ["writeme"],
         "metaData" : {
             "icon" : "bi bi-pencil-fill"
-        }
-    },
-    {
-        "tag" : "achievement1",
-        "className" : "card violet-cd add-width add-height",
-        "component" : "INTROCARD",
-        "metaData" : {
-            "info": "- Recognized as the first runner-up in the 2022 IEOM Society - 2nd India International Conference Paper Competition for excellence in research and innovation.<br/><br/>- As a team lead, secured a prize at the EG-100 Educational Game Development Hackathon 2021, organized by CDAC Mumbai and IEEE Bombay Section, with a team of 3 people.<br/><br/>- Led a team of 4 people to the finals of the Smart India Hackathon (SIH) 2020, organized by the Ministry of Human Resource Development (MHRD)."
-        }
-    },
-    {
-        "tag" : "achievement2",
-        "className" : "card red-cd add-width",
-        "component" : "INTROCARD",
-        "metaData" : {
-            "extraClass": "text-black",
-            "info": "- Finalist in Gov-TechThon 2020, Hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India <br/><br/> - Successfully Qualified the Graduate Aptitude Test in Engineering (GATE) in 2021, showcasing exceptional knowledge and expertise in the field."
         }
     },
     {
@@ -289,15 +294,6 @@
         }
     },
     {
-        "tag" : 30,
-        "className" : "card blue-cd add-width",
-        "component": "TEXTCARD",
-        "selectTags" : ["linkedin"],
-        "metaData": {
-            "text": "Explore my LinkedIn for more professional insights! 🏆🚀"
-        }
-    },
-    {
         "tag" : "github",
         "className" : "card magenta-cd",
         "component" : "ICON_COMPONENT",
@@ -308,10 +304,6 @@
                 "assistantMsg": "Opening Github account!"
             }
         }
-    },
-    {
-        "tag" : 33,
-        "className" : "card red-cd"
     },
     {
         "tag" : "ornament",
@@ -332,15 +324,6 @@
                 "link": "https://www.linkedin.com/in/a6h15hek/",
                 "assistantMsg": "Opening linkedin account!"
             }
-        }
-    },
-    {
-        "tag" : "resume-msg",
-        "className" : "card gold-cd add-width",
-        "component": "TEXTCARD",
-        "selectTags" : ["resume-link"],
-        "metaData": {
-            "text": "Check out my career map !🗺️🚀 My Resume."
         }
     },
     {
@@ -548,18 +531,18 @@
     },
     {
         "tag" : "project6",
-        "className" : "card orange-cd add-width add-height" ,
+        "className" : "card violet-cd add-width add-height text-white" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "Pancake Project Management Tool",
-            "nameExtraClass" : "yellow-cd",
+            "nameExtraClass" : "black-cd",
             "details": "+ Pancake is a versatile tool designed to streamline your project management workflow. It simplifies running web and server modules, monitors application status, and offers customizable project locations and override files. Best of all, you can run and open projects from anywhere!",
             "timeline" : "March 2024",
             "moreInfo" : "Created for personal project management, it is helpful in remote syncing, building, running multiple projects.", 
             "chip":[
                 {
                     "title": "Github",
-                    "iconClassName": "bi bi-github",
+                    "iconClassName": "bi bi-github text-white",
                     "link": "https://github.com/a6h15hek/pancake",
                     "assistantMsg": "Opening pancake code repository!"
                 }
@@ -587,6 +570,26 @@
         }
     },
     {
+        "tag" : "project8",
+        "className" : "card orange-cd add-width add-height" ,
+        "component" : "PROJECTCARD",
+        "metaData": {
+            "name" : "Cloud-based Application to Leverage the Coding in Education Institutions",
+            "nameExtraClass" : "black-cd text-white",
+            "details": "+ <b>Conducted research and published a paper</b> on how cloud-based applications can be used to enhance coding in educational institutions, particularly for practical labs. The paper discusses methods for managing this process effectively, increasing the effectiveness of live coding sessions, and implementing plagiarism checks.",
+            "timeline" : "August 2022",
+            "moreInfo" : "First Runner-Up at IEOM Society’s 2nd India International Conference Paper Competition, 2022, and implemented the solution as a final year project.", 
+            "chip":[
+                {
+                    "title": "paper",
+                    "iconClassName": "bi bi-layers-half",
+                    "link": "https://ieomsociety.org/proceedings/2022india/172.pdf",
+                    "assistantMsg": "Getting more details!"
+                }
+            ]
+        }
+    },
+    {
         "tag" : "infinitycard",
         "className" : "card black-cd",
         "component" : "INFINITYCARD"
@@ -605,6 +608,32 @@
         }
     },
     {
+        "tag" : "achievement1",
+        "className" : "card violet-cd add-width add-height",
+        "component" : "INTROCARD",
+        "metaData" : {
+            "info": "- Recognized as the first runner-up in the 2022 IEOM Society - 2nd India International Conference Paper Competition for excellence in research and innovation.<br/><br/>- As a team lead, secured a cash prize at the EG-100 Educational Game Development Hackathon 2021, organized by CDAC Mumbai and IEEE Bombay Section, with a team of 6 people.<br/><br/>- Led a team of 4 people to the finals of the Smart India Hackathon (SIH) 2020, organized by the Ministry of Human Resource Development (MHRD)."
+        }
+    },
+    {
+        "tag" : "resume-msg",
+        "className" : "card gold-cd add-width",
+        "component": "TEXTCARD",
+        "selectTags" : ["resume-link"],
+        "metaData": {
+            "text": "Check out my career map !🗺️🚀 My Resume."
+        }
+    },
+    {
+        "tag" : "achievement2",
+        "className" : "card red-cd add-width",
+        "component" : "INTROCARD",
+        "metaData" : {
+            "extraClass": "text-black",
+            "info": "- Finalist in Gov-TechThon 2020, Hosted by IEEE Computer Society and supported by Oracle India and National Informatics Centre (NIC) India <br/><br/> - Passed the Graduate Aptitude Test in Engineering (GATE) in 2021, showcasing proficiency in engineering concepts."
+        }
+    },
+    {
         "tag" : "web",
         "className" : "card cyan-cd",
         "component": "IMAGECARD",
@@ -619,6 +648,15 @@
         "component": "WRITEMECARD",
         "metaData" : {
             "startText" : "📌//If you want to send a note, please write it here, and I will read it. Mention email or link or any contact details if you want. Start with... \n\nHi Abhishek, \n\tI am "
+        }
+    },
+    {
+        "tag" : 30,
+        "className" : "card blue-cd add-width",
+        "component": "TEXTCARD",
+        "selectTags" : ["linkedin"],
+        "metaData": {
+            "text": "Explore my LinkedIn for more professional insights! 🏆🚀"
         }
     },
     {
