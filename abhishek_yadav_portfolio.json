@@ -149,7 +149,7 @@
         "className" : "card orange-cd",
         "component": "IMAGECARD",
         "metaData": {
-            "src": "/aws_cloud_practioner.png",
+            "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/aws_cloud_practioner.png",
             "alt": "AWS cloud certified."
         }
     },
