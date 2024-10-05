@@ -10,15 +10,6 @@ keywords: system design, notes
 draft: true
 filename: data-structure.md
 =====
-unique_id: ID29-09-2024
-type: blog
-published_on: 29 September 2024
-title: System Design Notes
-description: System Design Notes
-keywords: system design, notes
-draft: true
-filename: system-design-notes.md
-=====
 unique_id: ID10-02-2024
 type: blog
 published_on: 10 February 2024
@@ -27,6 +18,15 @@ description: Story of time and space.
 keywords: time, space, thetimemachine
 draft: true
 filename: the-time-machine.md
+=====
+unique_id: ID29-09-2024
+type: blog
+published_on: 29 September 2024
+title: System Design Notes
+description: System Design Notes
+keywords: system design, notes
+draft: true
+filename: system-design-notes.md
 =====
 unique_id: ID06-12-2023
 type: blog
