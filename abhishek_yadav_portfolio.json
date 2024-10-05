@@ -27,6 +27,15 @@
         }
     },
     {
+        "tag" : "blog-msg",
+        "className" : "card blue-cd add-width",
+        "component": "TEXTCARD",
+        "selectTags" : ["blog-link"],
+        "metaData": {
+            "text": "Read my blogs! \uD83D\uDCD6✨"
+        }
+    },
+    {
         "tag" : "info",
         "className" : "card gold-cd",
         "selectTags" : ["intro"],
@@ -365,7 +374,7 @@
             "nameExtraClass" : "black-cd text-white",
             "details": "+ A web application that simplifies coding lab practicals for students and teachers with a seamless virtual experience, comprehensive tools, and user-friendly features. Built with <b>ReactJS</b> and <b>Firebase backend</b>, it enhances learning and ensures high-quality education in coding.",
             "timeline" : "Oct 2021 - Mar 2022",
-            "moreInfo" : "This application was developed as my final year project & I wrote a paper showcasing its unique features and benefits. I was first runner-up in the 2022 IEOM Society - 2nd India International Conference Paper Competition ", 
+            "moreInfo" : "This application was developed as my final year project & I wrote a paper showcasing its unique features and benefits. I was first runner-up in the 2022 IEOM Society - 2nd India International Conference Paper Competition ",
             "chip":[
                 {
                     "title": "paper",
@@ -399,7 +408,7 @@
             "nameExtraClass" : "yellow-cd",
             "details": "+ Created an open-source backend for PHP web hosting and SQL databases, featuring <b>User Account Management APIs</b> (sign-up, login, account management) and <b>document database APIs</b> (like MongoDB). <br/><br/>+ Provides a <b>cost-effective solution for running a backend on inexpensive web hosting</b>, enabling users to easily create dynamic websites without backend coding. <br/><br/>+ It includes a <b>dashboard interface using ReactJS for simplified database and user management by website administrators.<b/>",
             "timeline" : "April & March of 2021",
-            "moreInfo" : "During my college days, I developed websites for events. Dealing with backend development for each website was time-consuming, so I developed a generic backend that I could reuse for multiple websites.", 
+            "moreInfo" : "During my college days, I developed websites for events. Dealing with backend development for each website was time-consuming, so I developed a generic backend that I could reuse for multiple websites.",
             "chip":[
                 {
                     "title": "more",
@@ -427,15 +436,6 @@
         "className" : "card yellow-cd"
     },
     {
-        "tag" : "frame",
-        "className" : "card violet-cd",
-        "component": "IMAGECARD",
-        "metaData": {
-            "src": "https://pixabay.com/get/g96d389b856b91166a88c8cc15bee8cd7e0e644294b659c3600ed625960e855e16a133481b9489ebe7aebf4caa934c592_640.png",
-            "alt": "frame"
-        }
-    },
-    {
         "tag" : "project3",
         "className" : "card orange-cd add-width add-height" ,
         "component" : "PROJECTCARD",
@@ -444,7 +444,7 @@
             "nameExtraClass" : "yellow-cd",
             "details": "+ A Multiplayer Online Bingo Game that provides a fun and engaging way for players to learn and test their knowledge on various topics.<br/><br/>+ The game is built using <b>ReactJS</b> and <b>Firebase Database</b>, which allows multiple players to play the game together in real-time.",
             "timeline" : "December 2021",
-            "moreInfo" : "I developed this project and was awarded a cash prize for it in the EG-100 Educational Game Development Hackathon 2021, hosted by CDAC Mumbai and IEEE Bombay Section.", 
+            "moreInfo" : "I developed this project and was awarded a cash prize for it in the EG-100 Educational Game Development Hackathon 2021, hosted by CDAC Mumbai and IEEE Bombay Section.",
             "chip":[
                 {
                     "title": "more",
@@ -479,7 +479,7 @@
             "nameExtraClass" : "magenta-cd text-white",
             "details": "+ Developed a chatbot that <b>registers complaints from people</b>, similar to a police station. The chatbot <b>collects information by asking questions</b> about the incident, <b>intelligently identifying the type of crime and adapting subsequent questions accordingly.</b> The question flow is dynamic, with each question being determined based on the response to the previous question.<br/>",
             "timeline" : "August 2020",
-            "moreInfo" : "Developed this project during the 36-hour Smart India Hackathon (SIH) 2020.", 
+            "moreInfo" : "Developed this project during the 36-hour Smart India Hackathon (SIH) 2020.",
             "chip":[
                 {
                     "title": "more",
@@ -498,7 +498,7 @@
     },
     {
         "tag" : 45,
-        "className" : "card yellow-cd"
+        "className" : "card purple-cd"
     },
     {
         "tag" : "tulip",
@@ -518,7 +518,7 @@
             "nameExtraClass" : "yellow-cd",
             "details": "+ Introducing BunkSquad, the ultimate Android application that delivers comprehensive <b>attendance statistical reports</b>, enables seamless real-time <b>attendance management</b>, and empowers users with a robust <b>polling feature</b> for effortless group decision-making across a wide range of topics.<br/><br/>+ The application is built using Android Studio (Java) for the frontend and utilizes Firebase as the backend.",
             "timeline" : "September 2020 to April 2021",
-            "moreInfo" : "", 
+            "moreInfo" : "",
             "chip":[
                 {
                     "title": "Download",
@@ -538,7 +538,7 @@
             "nameExtraClass" : "black-cd",
             "details": "+ Pancake is a versatile tool designed to streamline your project management workflow. It simplifies running web and server modules, monitors application status, and offers customizable project locations and override files. Best of all, you can run and open projects from anywhere!",
             "timeline" : "March 2024",
-            "moreInfo" : "Created for personal project management, it is helpful in remote syncing, building, running multiple projects.", 
+            "moreInfo" : "Created for personal project management, it is helpful in remote syncing, building, running multiple projects.",
             "chip":[
                 {
                     "title": "Github",
@@ -558,7 +558,7 @@
             "nameExtraClass" : "yellow-cd",
             "details": "+ This application leverages ChatGPT to provide a versatile set of system prompts. Users can select different modes such as conversation mode, developer question mode, code refactor mode, SQL command writer mode, and more. Simply choose a mode, input your query, and receive a response from ChatGPT. <br/><br/>+ Feature<br/><b>- Conversation Mode:</b> Engage in natural, human-like conversations.<br/><b>- Developer Question Mode:</b> Get answers to technical questions.<br/><b>- Code Refactor Mode:</b> Improve and optimize your code.<br/><b>- SQL Command Writer Mode:</b> Generate SQL commands based on your requirements.<br/><b>- And Many More:</b> Explore various modes to suit your needs.",
             "timeline" : "July 2024",
-            "moreInfo" : "", 
+            "moreInfo" : "",
             "chip":[
                 {
                     "title": "Github",
@@ -578,7 +578,7 @@
             "nameExtraClass" : "black-cd text-white",
             "details": "+ <b>Conducted research and published a paper</b> on how cloud-based applications can be used to enhance coding in educational institutions, particularly for practical labs. The paper discusses methods for managing this process effectively, increasing the effectiveness of live coding sessions, and implementing plagiarism checks.",
             "timeline" : "August 2022",
-            "moreInfo" : "First Runner-Up at IEOM Society’s 2nd India International Conference Paper Competition, 2022, and implemented the solution as a final year project.", 
+            "moreInfo" : "First Runner-Up at IEOM Society’s 2nd India International Conference Paper Competition, 2022, and implemented the solution as a final year project.",
             "chip":[
                 {
                     "title": "paper",
@@ -634,15 +634,6 @@
         }
     },
     {
-        "tag" : "web",
-        "className" : "card cyan-cd",
-        "component": "IMAGECARD",
-        "metaData": {
-            "src": "https://pixabay.com/get/g8f42cde79280fe6eb51d986ddd273aa8a190fc10064f74b9ffa4f75c36e7430052874b51b33670e51af210aa793358b6.svg",
-            "alt": "web"
-        }
-    },
-    {
         "tag" : "writeme",
         "className" : "card yellow-cd add-width add-height",
         "component": "WRITEMECARD",
@@ -676,7 +667,7 @@
         "tag" : 45,
         "className" : "card yellow-cd"
     },
-    
+
     {
         "tag" : 45,
         "className" : "card violet-cd add-width add-height",
@@ -687,8 +678,16 @@
         }
     },
     {
-        "tag" : 45,
-        "className" : "card yellow-cd"
+        "tag" : "blog-link",
+        "className" : "card ",
+        "component" : "ICON_COMPONENT",
+        "metaData" : {
+            "icon" : "bi bi-substack",
+            "task" : {
+                "link": "/blogs",
+                "assistantMsg": "Opening Super Blogs!"
+            }
+        }
     },
     {
         "tag" : 45,
