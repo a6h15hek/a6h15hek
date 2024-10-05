@@ -10,24 +10,6 @@ keywords: system design, notes
 draft: true
 filename: data-structure.md
 =====
-unique_id: ID29-09-2024
-type: blog
-published_on: 29 September 2024
-title: System Design Notes
-description: System Design Notes
-keywords: system design, notes
-draft: true
-filename: system-design-notes.md
-=====
-unique_id: ID10-02-2024
-type: blog
-published_on: 10 February 2024
-title: The Time Machine
-description: Story of time and space.
-keywords: time, space, thetimemachine
-draft: true
-filename: the-time-machine.md
-=====
 unique_id: ID06-12-2023
 type: blog
 published_on: 6 December 2023
@@ -40,11 +22,11 @@ filename: effective-logging-for-functions.md
 unique_id: ID29-09-2024
 type: blog
 published_on: 29 September 2024
-title: React Notes
-description: React Notes
-keywords: react, notes
+title: System Design Notes
+description: System Design Notes
+keywords: system design, notes
 draft: true
-filename: react-notes.md
+filename: system-design-notes.md
 =====
 unique_id: ID05-10-2024
 type: blog
@@ -54,6 +36,24 @@ description: Micro application with its own independent repository, backend, fro
 keywords: microapp, microservice, microfrontend, webpack, react, java, spring boot
 draft: false
 filename: microapp.md
+=====
+unique_id: ID29-09-2024
+type: blog
+published_on: 29 September 2024
+title: React Notes
+description: React Notes
+keywords: react, notes
+draft: true
+filename: react-notes.md
+=====
+unique_id: ID10-02-2024
+type: blog
+published_on: 10 February 2024
+title: The Time Machine
+description: Story of time and space.
+keywords: time, space, thetimemachine
+draft: true
+filename: the-time-machine.md
 ---
 
 # Hello World!! , 
