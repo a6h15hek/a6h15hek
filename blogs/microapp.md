@@ -112,7 +112,7 @@ The primary goals of this setup are:
 - Maintainability: Keeping the codebase organized and easy to manage over time.
 
 
-## Example Repositories
+## 📦 Example Repositories
 Here are example boilerplate repositories that I have set up. The microapp-boilerplate is a template to create microapps with all frontend and backend configurations, test case setups, and necessary commands to set up the development environment and create production builds.
 
 The second repository consists of a common shared library that can be used in multiple microapps to store common functions or UI components.
@@ -120,5 +120,7 @@ The second repository consists of a common shared library that can be used in mu
 
 [![a6h15hek/microapp-boilerplate - GitHub](https://gh-card.dev/repos/a6h15hek/microapp-boilerplate.svg?fullname=)](https://github.com/a6h15hek/microapp-boilerplate)
 [![a6h15hek/microapp-library-boilerplate - GitHub](https://gh-card.dev/repos/a6h15hek/microapp-library-boilerplate.svg?fullname=)](https://github.com/a6h15hek/microapp-library-boilerplate)
+
+The goal of microapps is to create small, mini, micro, or nano applications that can be seamlessly integrated into larger applications, thereby increasing modularity and maintainability.
 
 Thank you for reading this blog. _Sayonara!_
