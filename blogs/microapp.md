@@ -18,8 +18,10 @@ flowchart LR
     microservice
     microfrontend
     microapp
-    microapp ~~~ |<==| microservice ~~~ |＋| microfrontend 
+    microapp ~~~ |-->| micro-service ~~~ |＋| micro-frontend 
 ```
+Micro frontends are a web development pattern that breaks down a single application into smaller, independent modules called micro frontends. Each micro frontend is responsible for a specific feature or functionality and can be developed, tested, and deployed independently.
+
 
 ## ⛯ UseCase
 Imagine having a requirement to create a location selector with dropdown selectors for country, state, and city, along with the main street address. This type of requirement is common among multiple apps that ask for location and address submission. This requirement involves creating a UI and writing backend code to connect with location services that provide country, city, and state data. Writing this for multiple apps is time-consuming, leading to code duplication, maintainability issues across multiple applications, and the need to write test cases. Any future requirements or upgrades need to be synced across all applications.
@@ -40,10 +42,10 @@ Building the same thing as microapps offers the advantage of keeping all the cod
 - **Network Latency:** Communication between microapps over the network can introduce latency.
 - **Duplication:** Creating microapps could lead to duplication if there is common logic, function, or component that needs to be used in multiple microapps. (Could be solved with Common Library)
 
-## Integrating a Common Library to MicroApps
+## ♺ Integrating a Common Library to MicroApps
 When creating microapps, you might encounter duplication of common logic, functions, or components across multiple apps. For instance, authentication is often needed in all microapps. Writing authentication code for each one can lead to redundant code. To avoid this, you can integrate a common library that contains all shared backend functions and UI components, which can be used across multiple microapps.
 
-## Architecture
+## ☐ Architecture
 ```mermaid
 graph LR
     F[MicroApp Common Library] --> B
@@ -69,5 +71,43 @@ graph LR
         E2[Backend]
         E1[Frontend]
     end
-
 ```
+
+## ｛｝Development Strategies
+Creating multiple microapps across different applications often involves copying an existing microapp repository to a new one. To streamline this process, you can create a common microapp boilerplate template repository. This template can be used to generate new microapps whenever needed.
+
+Here’s how it works:
+- **Boilerplate Template:** Develop a boilerplate repository that acts as a framework for all microapps. This template will include configurations for the backend, frontend, testing libraries, development scripts, and CI/CD pipeline scripts.
+- **Creating New Microapps:** Whenever you need to create a new microapp, use this boilerplate template. This ensures consistency and saves time.
+- **Updating Microapps:** If there are any changes in the boilerplate repository, you can rebase these changes across all microapp repositories. This can be done by adding the boilerplate repository as a second remote URL in each microapp repository.
+- **Consistency:** This approach ensures a common methodology and structure across all microapps, making maintenance and updates more manageable.
+
+By using a common boilerplate template, you can simplify the creation and management of multiple microapps, ensuring they all follow the same standards and configurations.
+
+Additionally, the same method can be used for creating a common library repository for microapps.
+
+
+## ⊿ Project Setup
+A Microapp boilerplate repository should include both the frontend (view) and backend (service) code, with the choice of technologies depending on the developer’s preference and the project’s requirements. Common backend choices include Spring Boot, Django, and Node.js, while for the frontend, frameworks like Angular and Vue.js, as well as libraries like React, are popular options.
+
+#### Integration of Microfrontend
+The frontend part of the Microapp will be used as a microfrontend that can be integrated into other applications. There are several methods to achieve this integration:
+
+- Module Federation: Allows sharing code and dependencies between different applications at runtime.
+- Single SPA (Single Single Page Application): Enables multiple frameworks to coexist in a single application.
+- Iframe Integration: Embeds one application within another using iframes.
+
+#### Repository Setup
+The Microapp repository should be well-structured, with separate folders for backend and frontend code to enhance clarity and organization. Establishing generic rules for folder and file naming conventions is essential. Additionally, the repository should include all necessary commands to start both the service and view in production and development environments, as well as to run test cases. This approach ensures a streamlined and consistent setup process.
+
+- Testing Library: The repository should include a testing library for writing test cases to ensure code quality and functionality.
+- CI/CD Pipeline: Settings for Continuous Integration and Continuous Deployment (CI/CD) should be configured to automate the build, test, and deployment processes. 
+
+#### Common Library Integration
+A common library can be integrated into the Microapp repository to house shared code for both service and UI components. This promotes code reuse and maintainability.
+
+#### Goals
+The primary goals of this setup are:
+- Modularity: Ensuring that each component is self-contained and can be developed, tested, and deployed independently.
+- Maintainability: Keeping the codebase organized and easy to manage over time.
+
