@@ -98,7 +98,7 @@ The frontend part of the Microapp will be used as a microfrontend that can be in
 - Iframe Integration: Embeds one application within another using iframes.
 
 #### Repository Setup
-The Microapp repository should be well-structured, with separate folders for backend and frontend code to enhance clarity and organization. Establishing generic rules for folder and file naming conventions is essential. Additionally, the repository should include all necessary commands to start both the service and view in production and development environments, as well as to run test cases. This approach ensures a streamlined and consistent setup process.
+The Microapp repository should be well-structured, with separate folders for backend and frontend code to enhance clarity and organization. Establishing generic rules for folder and file naming conventions is essential. Additionally, the repository should include all necessary commands to set up the development environment, create production build packages, and run test cases. This approach ensures a streamlined and consistent setup process.
 
 - Testing Library: The repository should include a testing library for writing test cases to ensure code quality and functionality.
 - CI/CD Pipeline: Settings for Continuous Integration and Continuous Deployment (CI/CD) should be configured to automate the build, test, and deployment processes. 
@@ -111,3 +111,14 @@ The primary goals of this setup are:
 - Modularity: Ensuring that each component is self-contained and can be developed, tested, and deployed independently.
 - Maintainability: Keeping the codebase organized and easy to manage over time.
 
+
+## Example Repositories
+Here are example boilerplate repositories that I have set up. The microapp-boilerplate is a template to create microapps with all frontend and backend configurations, test case setups, and necessary commands to set up the development environment and create production builds.
+
+The second repository consists of a common shared library that can be used in multiple microapps to store common functions or UI components.
+
+
+[![a6h15hek/microapp-boilerplate - GitHub](https://gh-card.dev/repos/a6h15hek/microapp-boilerplate.svg?fullname=)](https://github.com/a6h15hek/microapp-boilerplate)
+[![a6h15hek/microapp-library-boilerplate - GitHub](https://gh-card.dev/repos/a6h15hek/microapp-library-boilerplate.svg?fullname=)](https://github.com/a6h15hek/microapp-library-boilerplate)
+
+Thank you for reading this blog. _Sayonara!_
