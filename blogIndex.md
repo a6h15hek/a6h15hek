@@ -10,15 +10,6 @@ keywords: system design, notes
 draft: true
 filename: data-structure.md
 =====
-unique_id: ID29-09-2024
-type: blog
-published_on: 29 September 2024
-title: System Design Notes
-description: System Design Notes
-keywords: system design, notes
-draft: true
-filename: system-design-notes.md
-=====
 unique_id: ID10-02-2024
 type: blog
 published_on: 10 February 2024
@@ -36,6 +27,24 @@ description: Explore effective function-level logging with practical tips for cl
 keywords: logs,best_practices
 draft: false
 filename: effective-logging-for-functions.md
+=====
+unique_id: ID05-10-2024
+type: blog
+published_on: 05 October 2024
+title: Building a MicroApp
+description: Micro application with its own independent repository, backend, frontend, and deployments. It is designed and developed specifically to create small UIs in the form of widgets, plugins, or components that can be integrated into larger applications. 
+keywords: microservice, microfrontend, microapp
+draft: true
+filename: microapp.md
+=====
+unique_id: ID29-09-2024
+type: blog
+published_on: 29 September 2024
+title: System Design Notes
+description: System Design Notes
+keywords: system design, notes
+draft: true
+filename: system-design-notes.md
 =====
 unique_id: ID29-09-2024
 type: blog
