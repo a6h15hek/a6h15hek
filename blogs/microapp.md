@@ -4,13 +4,13 @@ type: blog
 published_on: 05 October 2024
 title: Building a MicroApp
 description: Micro application with its own independent repository, backend, frontend, and deployments. It is designed and developed specifically to create small UIs in the form of widgets, plugins, or components that can be integrated into larger applications
-keywords: microapp, microservice, microfrontend
-draft: true
+keywords: microapp, microservice, microfrontend, webpack, react, java, spring boot
+draft: false
 ---
 
 # Building a MicroApp
 
-A microapp is a small application with its own `independent` `repository`, `backend`, `frontend`, and `deployments`. It is specifically designed and developed to create single, small UIs in the form of widgets, plugins, or components. These MicroApps have their frontend, backend, and deployment within a single repository and can be integrated into larger applications.
+A microapp is a small application with its own **independent repository, backend, frontend, and deployments**. It is specifically designed and developed to create single, small UIs in the form of widgets, plugins, or components. These MicroApps have their frontend, backend, and deployment within a single repository and can be integrated into larger applications.
 
 
 ```mermaid
@@ -38,13 +38,19 @@ Building the same thing as microapps offers the advantage of keeping all the cod
 - **Deployment Overhead:** Each microapp requires its own deployment pipeline, which can increase the overhead.
 - **Resource Consumption:** Running multiple microapps can consume more resources compared to a monolithic application.
 - **Network Latency:** Communication between microapps over the network can introduce latency.
+- **Duplication:** Creating microapps could lead to duplication if there is common logic, function, or component that needs to be used in multiple microapps. (Could be solved with Common Library)
 
+## Integrating a Common Library to MicroApps
+When creating microapps, you might encounter duplication of common logic, functions, or components across multiple apps. For instance, authentication is often needed in all microapps. Writing authentication code for each one can lead to redundant code. To avoid this, you can integrate a common library that contains all shared backend functions and UI components, which can be used across multiple microapps.
 
 ## Architecture
 ```mermaid
 graph LR
+    F[MicroApp Common Library] --> B
+    F --> C
+    F --> E
+
     B --> A[Main Application 1]
-    
     B --> D[Main Application 2]
     C --> D
     E --> D
