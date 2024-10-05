@@ -12,14 +12,14 @@ draft: false
 
 A microapp is a small application with its own **independent repository, backend, frontend, and deployments**. It is specifically designed and developed to create single, small UIs in the form of widgets, plugins, or components. These MicroApps have their frontend, backend, and deployment within a single repository and can be integrated into larger applications.
 
-
 ```mermaid
 flowchart LR
     microservice
     microfrontend
     microapp
-    microapp ~~~ |<==| micro-service ~~~ |＋| micro-frontend 
+    microapp ~~~ |<==| microservice ~~~ |＋| microfrontend 
 ```
+
 Micro frontends are a web development pattern that breaks down a single application into smaller, independent modules called micro frontends. Each micro frontend is responsible for a specific feature or functionality and can be developed, tested, and deployed independently.
 
 
