@@ -18,7 +18,7 @@ flowchart LR
     microservice
     microfrontend
     microapp
-    microapp ~~~ |-->| micro-service ~~~ |＋| micro-frontend 
+    microapp ~~~ |<==| micro-service ~~~ |＋| micro-frontend 
 ```
 Micro frontends are a web development pattern that breaks down a single application into smaller, independent modules called micro frontends. Each micro frontend is responsible for a specific feature or functionality and can be developed, tested, and deployed independently.
 
