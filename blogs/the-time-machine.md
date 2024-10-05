@@ -28,12 +28,16 @@ There is no spacing between points. The space between them is a perfect zero.
 0th dimension = point => .
 1st dimension = line (10 points) => . . . .
 2nd dimension => square (4 x 4 points)
+```
 .  .  .  .
 .  .  .  .
 .  .  .  .
 .  .  .  .
+```
+
 
 3rd dimension => 3rd cube => 
+```
          .  .  .  .
       .  .  .  .  .
    .  .  .  .  .  .
@@ -41,6 +45,7 @@ There is no spacing between points. The space between them is a perfect zero.
 .  .  .  .  .  .
 .  .  .  .  .
 .  .  .  .
+```
 
 Humans perceive the world in three spatial dimensions. The 0th, 1st, 4th, and so on dimensions are not directly observable in our everyday life. These dimensions can be represented mathematically or conceptually.
 
