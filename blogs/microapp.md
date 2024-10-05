@@ -50,14 +50,18 @@ graph LR
     E --> D
 
     subgraph B[MicroApp 1]
-        B2[Backend] --> B1[Frontend]
+        B2[Backend] 
+        B1[Frontend]
     end
 
     subgraph C[MicroApp 2]
-        C2[Backend] --> C1[Frontend]
+        C2[Backend] 
+        C1[Frontend]
     end
 
     subgraph E[MicroApp 3]
-        E2[Backend] --> E1[Frontend]
+        E2[Backend]
+        E1[Frontend]
     end
+
 ```
