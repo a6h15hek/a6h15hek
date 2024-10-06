@@ -10,6 +10,24 @@ keywords: system design, notes
 draft: true
 filename: data-structure.md
 =====
+unique_id: ID06-12-2023
+type: blog
+published_on: 6 December 2023
+title: Effective Logging for Function
+description: Explore effective function-level logging with practical tips for clear and insightful logs.
+keywords: logs,best_practices
+draft: false
+filename: effective-logging-for-functions.md
+=====
+unique_id: ID05-10-2024
+type: blog
+published_on: 05 October 2024
+title: Building a MicroApp, Extending Microfrontend Pattern
+description: A microapp is a small, self-contained application with its own repository, backend, frontend, and deployments. Designed to create small UIs like widgets, plugins, or components, microapps integrate seamlessly into larger applications.
+keywords: microapp, microservice, microfrontend, webpack, react, java, spring boot
+draft: false
+filename: microapp.md
+=====
 unique_id: ID10-02-2024
 type: blog
 published_on: 10 February 2024
@@ -19,15 +37,6 @@ keywords: time, space, thetimemachine
 draft: true
 filename: the-time-machine.md
 =====
-unique_id: ID05-10-2024
-type: blog
-published_on: 05 October 2024
-title: Building a MicroApp
-description: A microapp is a small, self-contained application with its own repository, backend, frontend, and deployments. Designed to create small UIs like widgets, plugins, or components, microapps integrate seamlessly into larger applications.
-keywords: microapp, microservice, microfrontend, webpack, react, java, spring boot
-draft: false
-filename: microapp.md
-=====
 unique_id: ID29-09-2024
 type: blog
 published_on: 29 September 2024
@@ -36,15 +45,6 @@ description: System Design Notes
 keywords: system design, notes
 draft: true
 filename: system-design-notes.md
-=====
-unique_id: ID06-12-2023
-type: blog
-published_on: 6 December 2023
-title: Effective Logging for Function
-description: Explore effective function-level logging with practical tips for clear and insightful logs.
-keywords: logs,best_practices
-draft: false
-filename: effective-logging-for-functions.md
 =====
 unique_id: ID29-09-2024
 type: blog
