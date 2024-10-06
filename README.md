@@ -3,7 +3,8 @@
 [![LinkedIn](https://img.shields.io/badge/-AbhishekYadav-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/a6h15hek)](https://www.linkedin.com/in/a6h15hek/) 
 [![DuckDuckGo](https://img.shields.io/badge/-abhishekyadav@duck.com-c14438?style=social&logo=DuckDuckGo&logoColor=red&link=mailto:abhishekyadav@duck.com)](mailto:abhishekyadav@duck.com)
 [![Resume](https://img.shields.io/badge/MyResume-ff?style=flat&logoColor=white&labelColor=white&color=red)](https://a6h15hek.github.io/a6h15hek/abhishek_yadav_resume.pdf)
-[![Resume](https://img.shields.io/badge/Portfolio-fff?style=flat&logoColor=white&labelColor=white&color=purple)](https://abhishek-me.web.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-fff?style=flat&logoColor=white&labelColor=white&color=purple)](https://abhishek-me.web.app/)
+[![Blog](https://img.shields.io/badge/Blog-fff?style=flat&logoColor=white&labelColor=white&color=green)](https://abhishek-me.web.app/blogs)
 
 ---
 ## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="24px">,
