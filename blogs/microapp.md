@@ -3,14 +3,14 @@ unique_id: ID05-10-2024
 type: blog
 published_on: 05 October 2024
 title: Building a MicroApp
-description: Micro application with its own independent repository, backend, frontend, and deployments. It is designed and developed specifically to create small UIs in the form of widgets, plugins, or components that can be integrated into larger applications
+description: A microapp is a small, self-contained application with its own repository, backend, frontend, and deployments. Designed to create small UIs like widgets, plugins, or components, microapps integrate seamlessly into larger applications.
 keywords: microapp, microservice, microfrontend, webpack, react, java, spring boot
 draft: false
 ---
 
 # Building a MicroApp
 
-A microapp is a small application with its own **independent repository, backend, frontend, and deployments**. It is specifically designed and developed to create single, small UIs in the form of widgets, plugins, or components. These MicroApps have their frontend, backend, and deployment within a single repository and can be integrated into larger applications.
+A microapp is a small, self-contained application that includes its own independent repository, backend, frontend, and deployments. These applications are specifically designed to create single, small user interfaces (UIs) in the form of widgets, plugins, or components. Each microapp has its frontend, backend, and deployment managed within a single repository, allowing them to be easily integrated into larger applications.
 
 ```mermaid
 flowchart LR
@@ -24,9 +24,10 @@ Micro frontends are a web development pattern that breaks down a single applicat
 
 
 ## ⛯ UseCase
-Imagine having a requirement to create a location selector with dropdown selectors for country, state, and city, along with the main street address. This type of requirement is common among multiple apps that ask for location and address submission. This requirement involves creating a UI and writing backend code to connect with location services that provide country, city, and state data. Writing this for multiple apps is time-consuming, leading to code duplication, maintainability issues across multiple applications, and the need to write test cases. Any future requirements or upgrades need to be synced across all applications.
+Imagine needing to create a location selector with dropdowns for country, state, city, and main street address. This requirement is common in many apps that ask for location and address submission. It involves creating a UI and writing backend code to connect with location services for country, city, and state data. Doing this for multiple apps is time-consuming, leads to code duplication, maintainability issues, and the need to write test cases. Future updates must be synced across all applications.
 
-Building the same thing as microapps offers the advantage of keeping all the code in one place, ensuring reusability and easy maintainability. New requirements can be implemented and deployed without rebuilding or restarting the main application. microapps can be used as components in multiple applications.
+Building this as a microapp offers significant advantages. It keeps all the code in one place, ensuring reusability and easy maintainability. New requirements can be implemented and deployed without rebuilding or restarting the main application. Microapps can be used as components in multiple applications, enhancing efficiency and consistency.
+
 
 ## ★ Advantages
 - **Modularity:** Each microapp is a self-contained module, making it easier to develop, test, and maintain. This modularity allows developers to focus on specific functionalities without affecting the entire system.
@@ -43,7 +44,8 @@ Building the same thing as microapps offers the advantage of keeping all the cod
 - **Duplication:** Creating microapps could lead to duplication if there is common logic, function, or component that needs to be used in multiple microapps. (Could be solved with Common Library)
 
 ## ♺ Integrating a Common Library to MicroApps
-When creating microapps, you might encounter duplication of common logic, functions, or components across multiple apps. For instance, authentication is often needed in all microapps. Writing authentication code for each one can lead to redundant code. To avoid this, you can integrate a common library that contains all shared backend functions and UI components, which can be used across multiple microapps.
+When developing microapps, you may face duplication of common logic, functions, or components across different apps. For example, authentication is a frequent requirement in all microapps. Writing authentication code for each one can result in redundant code. To prevent this, you can integrate a common library that includes all shared backend functions and UI components. This library can be utilized across multiple microapps, ensuring consistency and reducing redundancy.
+
 
 ## ☐ Architecture
 ```mermaid
