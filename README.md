@@ -6,10 +6,10 @@
 [![Resume](https://img.shields.io/badge/Portfolio-fff?style=flat&logoColor=white&labelColor=white&color=purple)](https://abhishek-me.web.app/)
 
 ---
-## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="10px">,
-I am a Full-Stack Developer and Computer Science Engineer based in Mumbai, India. My passion for technology and love of building innovative solutions has led me to excel in developing mobile applications, creating web apps, and building robust backend servers.
+## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="24px">,
+I am a Computer Science Engineer and Full-Stack Developer based in Maharashtra, India.
 
-I am driven by the belief that technology has the power to transform people's lives, and I am committed to creating awesome digital solutions that make a difference. I thrive on working on cool projects that challenge me to push the boundaries of what's possible and am always interested in collaborating with like-minded individuals who share my passion for development.
+My passion lies in developing exceptional digital solutions that enhance people's lives. My expertise includes developing mobile applications, creating web apps, and building robust backend servers. I enjoy working on cool projects and am fascinated by the entire full-stack spectrum, from the front-end to the back-end. I have a track record of collaborating with like-minded people to deliver successful solutions that exceed client expectations.
 
 If you're looking for a passionate, innovative, and driven Full-Stack Developer to bring your project to life, let's work together and create something truly awesome."
        
