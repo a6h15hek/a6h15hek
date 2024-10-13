@@ -1,7 +1,7 @@
 [
     {
         "tag" : "home",
-        "className" : "card yellow-cd",
+        "className" : "yellow-cd",
         "selectTags": ["hello"],
         "component" : "ICON_COMPONENT",
         "metaData" : {
@@ -10,7 +10,7 @@
     },
     {
         "tag" : "info",
-        "className" : "card",
+        "className" : "",
         "selectTags" : ["intro"],
         "component" : "ICON_COMPONENT",
         "metaData" : {
@@ -19,7 +19,7 @@
     },
     {
         "tag" : "hello",
-        "className" : "card black-cd add-width",
+        "className" : "black-cd wx2",
         "component" : "HELLOCARD",
         "metaData" : {
             "name": "Abhishek Yadav.",
@@ -28,7 +28,7 @@
     },
     {
         "tag" : "blog-msg",
-        "className" : "card blue-cd add-width",
+        "className" : "blue-cd wx2",
         "component": "TEXTCARD",
         "selectTags" : ["blog-link"],
         "metaData": {
@@ -37,7 +37,7 @@
     },
     {
         "tag" : "info",
-        "className" : "card gold-cd",
+        "className" : "gold-cd",
         "selectTags" : ["intro"],
         "component" : "TEXTCARD",
         "metaData": {
@@ -46,7 +46,7 @@
     },
     {
         "tag" : "intro",
-        "className" : "card violet-cd add-width add-height",
+        "className" : "violet-cd wx2 hx2",
         "component" : "INTROCARD",
         "metaData" : {
             "title": "Something About me",
@@ -55,7 +55,7 @@
     },
     {
         "tag" : "diamond",
-        "className" : "card orange-cd",
+        "className" : "orange-cd",
         "component" : "ICON_COMPONENT",
         "selectTags": ["skill1","skill2"],
         "metaData" : {
@@ -64,7 +64,7 @@
     },
     {
         "tag" : "award",
-        "className" : "card violet-cd",
+        "className" : "violet-cd",
         "component" : "ICON_COMPONENT",
         "selectTags": ["achievement1","achievement2"],
         "metaData" : {
@@ -73,13 +73,13 @@
     },
     {
         "tag" : "assistant",
-        "className" : "card news-cd add-width",
+        "className" : "news-cd wx2",
         "component": "ASSISTANTCARD",
         "metaData" : {}
     },
     {
         "tag" : "suitcase",
-        "className" : "card red-cd",
+        "className" : "red-cd",
         "component" : "ICON_COMPONENT",
         "selectTags": ["job1","job2"],
         "metaData" : {
@@ -89,12 +89,12 @@
 
     {
         "tag" : 11,
-        "className" : "card black-cd add-height",
+        "className" : "black-cd hx2",
         "component": "SLIDECLOCK"
     },
     {
         "tag" : "person",
-        "className" : "card cyan-cd",
+        "className" : "cyan-cd",
         "component" : "ICON_COMPONENT",
         "selectTags" : ["contact"],
         "metaData" : {
@@ -103,7 +103,7 @@
     },
     {
         "tag" : "job1",
-        "className" : "card magenta-cd add-width add-height",
+        "className" : "magenta-cd wx2 hx2",
         "component": "JOBCARD",
         "metaData": {
             "extraClass": "underlined-title-black-dash text-black",
@@ -116,7 +116,7 @@
     },
     {
         "tag" : "job2",
-        "className" : "card cyan-cd add-width add-height",
+        "className" : "cyan-cd wx2 hx2",
         "component": "JOBCARD",
         "metaData": {
             "extraClass": "text-black",
@@ -129,7 +129,7 @@
     },
     {
         "tag" : "college",
-        "className" : "card teal-cd add-width",
+        "className" : "teal-cd wx2",
         "component": "JOBCARD",
         "metaData": {
             "extraClass": "text-black",
@@ -142,7 +142,7 @@
     },
     {
         "tag" : "skill1",
-        "className" : "card yellow-cd add-height",
+        "className" : "yellow-cd hx2",
         "component": "TECHSKILLCARD2",
         "metaData" : {
             "title1": "Software Development",
@@ -155,7 +155,7 @@
     },
     {
         "tag" : 11,
-        "className" : "card orange-cd",
+        "className" : "orange-cd",
         "component": "IMAGECARD",
         "metaData": {
             "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/aws_cloud_practioner.png",
@@ -164,7 +164,7 @@
     },
     {
         "tag" : "kanban",
-        "className" : "card yellow-cd",
+        "className" : "yellow-cd",
         "component" : "ICON_COMPONENT",
         "selectTags" : ["project1","project2","project3","project4","project5"],
         "metaData" : {
@@ -173,7 +173,7 @@
     },
     {
         "tag" : "skill2",
-        "className" : "card black-cd  add-width add-height",
+        "className" : "black-cd  wx2 hx2",
         "component": "TECHSKILLCARD",
         "metaData" : {
             "title": "Things I use.",
@@ -188,12 +188,12 @@
     },
     {
         "tag" : "multicolortext",
-        "className" : "card add-height",
+        "className" : "hx2",
         "component": "MULTICOLORTEXTCARD"
     },
     {
         "tag" : "chameleon",
-        "className" : "card violet-cd",
+        "className" : "violet-cd",
         "component": "IMAGECARD",
         "metaData": {
             "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/chamelen.svg",
@@ -202,7 +202,7 @@
     },
     {
         "tag" : "mail",
-        "className" : "card red-cd",
+        "className" : "red-cd",
         "component" : "ICON_COMPONENT",
         "metaData" : {
             "icon" : "bi bi-envelope-check-fill",
@@ -214,7 +214,7 @@
     },
     {
         "tag" : "contact",
-        "className" : "card black-cd add-width",
+        "className" : "black-cd wx2",
         "component": "CONTACTCARD",
         "metaData": {
             "aboutMe" : {
@@ -231,12 +231,12 @@
     },
     {
         "tag" : "solarsystem",
-        "className" : "card black-cd",
+        "className" : "black-cd",
         "component" : "SOLARSYSTEMCARD"
     },
     {
         "tag" : 9,
-        "className" : "card violet-cd",
+        "className" : "violet-cd",
         "component" : "ICON_COMPONENT",
         "selectTags": ["writeme"],
         "metaData" : {
@@ -245,11 +245,11 @@
     },
     {
         "tag" : 27,
-        "className" : "card india-cd add-width"
+        "className" : "india-cd wx2"
     },
     {
         "tag" : "platypus",
-        "className" : "card red-cd",
+        "className" : "red-cd",
         "component": "IMAGECARD",
         "metaData": {
             "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/platypus.png",
@@ -258,17 +258,17 @@
     },
     {
         "tag" : 30,
-        "className" : "card red-cd",
+        "className" : "red-cd",
         "component": "CALENDARCARD"
     },
     {
         "tag" : "multianimation",
-        "className" : "card black-cd add-width",
+        "className" : "black-cd wx2",
         "component": "MULTIANIMATIONCARD"
     },
     {
         "tag" : 29,
-        "className" : "card black-cd add-width add-more-height",
+        "className" : "black-cd wx2 hx3",
         "component": "TIMELINECARD",
         "metaData": {
             "timelines" : [
@@ -304,7 +304,7 @@
     },
     {
         "tag" : "github",
-        "className" : "card magenta-cd",
+        "className" : "magenta-cd",
         "component" : "ICON_COMPONENT",
         "metaData" : {
             "icon" : "bi bi-github",
@@ -316,7 +316,7 @@
     },
     {
         "tag" : "ornament",
-        "className" : "card yellow-cd",
+        "className" : "yellow-cd",
         "component": "IMAGECARD",
         "metaData": {
             "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/ornament.svg",
@@ -325,7 +325,7 @@
     },
     {
         "tag" : "linkedin",
-        "className" : "card",
+        "className" : "",
         "component" : "ICON_COMPONENT",
         "metaData" : {
             "icon": "bi bi-linkedin",
@@ -337,7 +337,7 @@
     },
     {
         "tag" : "resume-link",
-        "className" : "card ",
+        "className" : "",
         "component" : "ICON_COMPONENT",
         "metaData" : {
             "icon" : "bi bi-file-earmark-break-fill",
@@ -349,7 +349,7 @@
     },
     {
         "tag" : "om",
-        "className" : "card magenta-cd",
+        "className" : "magenta-cd",
         "component": "IMAGECARD",
         "metaData": {
             "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/om.svg",
@@ -358,7 +358,7 @@
     },
     {
         "tag" : 37,
-        "className" : "card teal-cd add-width",
+        "className" : "teal-cd wx2",
         "component": "TEXTCARD",
         "selectTags" : ["github"],
         "metaData": {
@@ -367,7 +367,7 @@
     },
     {
         "tag" : "project1",
-        "className" : "card add-width add-height" ,
+        "className" : "wx2 hx2" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "Bettercode : Virtual Coding Platform.",
@@ -387,12 +387,12 @@
     },
     {
         "tag" : "spnningsquare",
-        "className" : "card black-cd",
+        "className" : "black-cd",
         "component" : "SPINNINGSQUARECARD"
     },
     {
         "tag" : "frame",
-        "className" : "card red-cd",
+        "className" : "red-cd",
         "component": "IMAGECARD",
         "metaData": {
             "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/mushroom.svg",
@@ -401,7 +401,7 @@
     },
     {
         "tag" : "project2",
-        "className" : "card magenta-cd add-width add-more-height" ,
+        "className" : "magenta-cd wx2 hx3" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "PHP Satellite Backend App & Dashboard",
@@ -433,11 +433,11 @@
     },
     {
         "tag" : 45,
-        "className" : "card yellow-cd"
+        "className" : "yellow-cd"
     },
     {
         "tag" : "project3",
-        "className" : "card orange-cd add-width add-height" ,
+        "className" : "orange-cd wx2 hx2" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "Bingo Minds : An Educational Game",
@@ -463,7 +463,7 @@
     },
     {
         "tag" : 45,
-        "className" : "card violet-cd add-width",
+        "className" : "violet-cd wx2",
         "component": "TEXTCARD",
         "metaData": {
             "extraClass": "text-white",
@@ -472,7 +472,7 @@
     },
     {
         "tag" : "project4",
-        "className" : "card yellow-cd add-width add-height" ,
+        "className" : "yellow-cd wx2 hx2" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "Chatbot Police Assistant for Reporting Crimes",
@@ -498,11 +498,11 @@
     },
     {
         "tag" : 45,
-        "className" : "card purple-cd"
+        "className" : "purple-cd"
     },
     {
         "tag" : "tulip",
-        "className" : "card cyan-cd",
+        "className" : "cyan-cd",
         "component": "IMAGECARD",
         "metaData": {
             "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/lily.png",
@@ -511,7 +511,7 @@
     },
     {
         "tag" : "project5",
-        "className" : "card red-cd add-width add-height" ,
+        "className" : "red-cd wx2 hx2" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "BunkSquad: Attendance Management & Polling App",
@@ -531,7 +531,7 @@
     },
     {
         "tag" : "project6",
-        "className" : "card violet-cd add-width add-height text-white" ,
+        "className" : "violet-cd wx2 hx2 text-white" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "Pancake Project Management Tool",
@@ -551,7 +551,7 @@
     },
     {
         "tag" : "project7",
-        "className" : "card magenta-cd add-width add-more-height" ,
+        "className" : "magenta-cd wx2 hx3" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "Just Ultimate Neural Enhancer - Dynamic Enigma Vortex Generating Predictive Technology (June DevGPT++)",
@@ -571,7 +571,7 @@
     },
     {
         "tag" : "project8",
-        "className" : "card orange-cd add-width add-height" ,
+        "className" : "orange-cd wx2 hx2" ,
         "component" : "PROJECTCARD",
         "metaData": {
             "name" : "Cloud-based Application to Leverage the Coding in Education Institutions",
@@ -591,16 +591,16 @@
     },
     {
         "tag" : "infinitycard",
-        "className" : "card black-cd",
+        "className" : "black-cd",
         "component" : "INFINITYCARD"
     },
     {
         "tag" : 39,
-        "className" : "card red-cd"
+        "className" : "red-cd"
     },
     {
         "tag" : "up",
-        "className" : "card",
+        "className" : "",
         "component" : "ICON_COMPONENT",
         "selectTags" : ["hello"],
         "metaData" : {
@@ -609,7 +609,7 @@
     },
     {
         "tag" : "achievement1",
-        "className" : "card violet-cd add-width add-height",
+        "className" : "violet-cd wx2 hx2",
         "component" : "INTROCARD",
         "metaData" : {
             "info": "- Recognized as the first runner-up in the 2022 IEOM Society - 2nd India International Conference Paper Competition for excellence in research and innovation.<br/><br/>- As a team lead, secured a cash prize at the EG-100 Educational Game Development Hackathon 2021, organized by CDAC Mumbai and IEEE Bombay Section, with a team of 6 people.<br/><br/>- Led a team of 4 people to the finals of the Smart India Hackathon (SIH) 2020, organized by the Ministry of Human Resource Development (MHRD)."
@@ -617,7 +617,7 @@
     },
     {
         "tag" : "resume-msg",
-        "className" : "card gold-cd add-width",
+        "className" : "gold-cd wx2",
         "component": "TEXTCARD",
         "selectTags" : ["resume-link"],
         "metaData": {
@@ -626,7 +626,7 @@
     },
     {
         "tag" : "achievement2",
-        "className" : "card red-cd add-width",
+        "className" : "red-cd wx2",
         "component" : "INTROCARD",
         "metaData" : {
             "extraClass": "text-black",
@@ -635,7 +635,7 @@
     },
     {
         "tag" : "writeme",
-        "className" : "card yellow-cd add-width add-height",
+        "className" : "yellow-cd wx2 hx2",
         "component": "WRITEMECARD",
         "metaData" : {
             "startText" : "📌//If you want to send a note, please write it here, and I will read it. Mention email or link or any contact details if you want. Start with... \n\nHi Abhishek, \n\tI am "
@@ -643,7 +643,7 @@
     },
     {
         "tag" : 30,
-        "className" : "card blue-cd add-width",
+        "className" : "blue-cd wx2",
         "component": "TEXTCARD",
         "selectTags" : ["linkedin"],
         "metaData": {
@@ -652,7 +652,7 @@
     },
     {
         "tag" : 45,
-        "className" : "card magenta-cd add-height",
+        "className" : "magenta-cd hx2",
         "component": "IMAGECARD",
         "metaData": {
             "src": "https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/shiva.svg",
@@ -661,16 +661,16 @@
     },
     {
         "tag" : 45,
-        "className" : "card blue-cd"
+        "className" : "blue-cd"
     },
     {
         "tag" : 45,
-        "className" : "card yellow-cd"
+        "className" : "yellow-cd"
     },
 
     {
         "tag" : 45,
-        "className" : "card violet-cd add-width add-height",
+        "className" : "violet-cd wx2 hx2",
         "component" : "INTROCARD",
         "metaData" : {
             "title": "CraftPaper | About this Portfolio",
@@ -679,7 +679,7 @@
     },
     {
         "tag" : "blog-link",
-        "className" : "card ",
+        "className" : "",
         "component" : "ICON_COMPONENT",
         "metaData" : {
             "icon" : "bi bi-substack",
@@ -691,11 +691,11 @@
     },
     {
         "tag" : 45,
-        "className" : "card green-cd"
+        "className" : "green-cd"
     },
     {
         "tag" : 45,
-        "className" : "card teal-cd add-width",
+        "className" : "teal-cd wx2",
         "component": "TEXTCARD",
         "selectTags" : ["github"],
         "metaData": {
