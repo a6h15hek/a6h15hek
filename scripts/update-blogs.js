@@ -14,7 +14,7 @@ const isJsonString = async (str) => {
 
 const fetchAllBlogsFile = async (url, result) => {
     try{
-        var myRequest = new Request(url, { headers: new Headers({'accept':'application/vnd.github.v3.raw'})});
+        const myRequest = new Request(url, {headers: new Headers({'accept': 'application/vnd.github.v3.raw'})});
         const response = await fetch(myRequest);
         const blogFilesList = await response.json();
         if(Array.isArray(blogFilesList)){
@@ -31,7 +31,7 @@ const fetchAllBlogsFile = async (url, result) => {
 
 const fetchGithubFileTextContent = async (url, result) => {
     try{
-        var myRequest = new Request(url, { headers: new Headers({'accept':'application/vnd.github.v3.raw'})});
+        const myRequest = new Request(url, {headers: new Headers({'accept': 'application/vnd.github.v3.raw'})});
         const response = await fetch(myRequest);
         const markdown = await response.text();
         const isJson  = await isJsonString(markdown);
