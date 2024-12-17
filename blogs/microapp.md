@@ -3,14 +3,15 @@ unique_id: ID05-10-2024
 type: blog
 published_on: 05 October 2024
 title: Building a MicroApp, Extending Microfrontend Pattern
-description: A microapp is a small, self-contained application with its own repository, backend, frontend, and deployments. Designed to create small UIs like widgets, plugins, or components, microapps integrate seamlessly into larger applications.
+description: A microapp is a small, focused application designed to efficiently perform specific tasks like managing a payment page or a shopping cart in a large online shop. These self-contained apps can come with their own backend, frontend, and database connection, all packed in monorepos. They typically operate within a larger system or platform. By reducing the complexity and overhead of large, monolithic software systems, microapps help organizations boost productivity.
 keywords: microapp, microservice, microfrontend, webpack, react, java, spring boot
 draft: false
 ---
 
 # Building a MicroApp, Extending Microfrontend Pattern
 
-A microapp is a small, self-contained application that includes its own independent repository, backend, frontend, and deployments. These applications are specifically designed to create single, small user interfaces (UIs) in the form of widgets, plugins, or components. Each microapp has its frontend, backend, and deployment managed within a single repository, allowing them to be easily integrated into larger applications.
+A microapp is a small, focused application designed to efficiently perform specific tasks like managing a payment page or a shopping cart in a large online shop. These self-contained apps can come with their own backend, frontend, and database connection, all packed in monorepos. They typically operate within a larger system or platform. By reducing the complexity and overhead of large, monolithic software systems, microapps help organizations boost productivity.
+
 
 ```mermaid
 flowchart LR
