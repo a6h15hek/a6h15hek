@@ -3,8 +3,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-AbhishekYadav-%230A66C2?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/a6h15hek)](https://www.linkedin.com/in/a6h15hek/)
 [![Email](https://img.shields.io/badge/Email-abhishekyadav%40duck.com-%23D14836?style=flat-square&logo=gmail&logoColor=white&link=mailto:abhishekyadav@duck.com)](mailto:abhishekyadav@duck.com)
 [![Resume](https://img.shields.io/badge/Resume-View-%23FF0000?style=flat-square&logo=adobe-acrobat-reader&logoColor=white&link=https://a6h15hek.github.io/a6h15hek/abhishek_yadav_resume.pdf)](https://a6h15hek.github.io/a6h15hek/abhishek_yadav_resume.pdf)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-%236E40C9?style=flat-square&logo=google-chrome&logoColor=white&link=https://abhishek-me.web.app/)](https://abhishek-me.web.app/)
-[![Blog](https://img.shields.io/badge/Blog-Read-%234CAF50?style=flat-square&logo=medium&logoColor=white&link=https://abhishek-me.web.app/blogs)](https://abhishek-me.web.app/blogs)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View-%236E40C9?style=flat-square&logo=google-chrome&logoColor=white&link=https://theabhishekmyadav.web.app/)](https://theabhishekmyadav.web.app/)
+[![Blog](https://img.shields.io/badge/Blog-Read-%234CAF50?style=flat-square&logo=medium&logoColor=white&link=https://theabhishekmyadav.web.app/blogs)](https://theabhishekmyadav.web.app/blogs)
 
 ---
 ## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="24px">,
