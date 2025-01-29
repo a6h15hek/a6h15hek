@@ -41,6 +41,11 @@ If you're looking for a passionate, innovative, and driven Full-Stack Developer 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 
+![](https://github-readme-streak-stats.herokuapp.com/?user=a6h15hek&theme=dark&hide_border=false)
+![](https://github-readme-stats.vercel.app/api?username=a6h15hek&show=prs_merged,prs_merged_percentage&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=a6h15hek&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+
 ## 💎 Technical Skills
 ✔  Languages :- JavaScript, Core Java, PHP, C++.\
 ✔  Stacks Used :- MERN Stack, LAMP Stack.\
@@ -58,10 +63,6 @@ If you're looking for a passionate, innovative, and driven Full-Stack Developer 
 🏆 Successfully qualified the Graduate Aptitude Test in Engineering (GATE) in 2021, demonstrating proficiency in engineering concepts and problem-solving abilities.
 
 
-## 📊 GitHub Stats:
-![](https://github-readme-streak-stats.herokuapp.com/?user=a6h15hek&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=a6h15hek&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-![](https://github-readme-stats.vercel.app/api?username=a6h15hek&show=prs_merged,prs_merged_percentage&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 
 
 ##  Have Questions || Suggestions ?! 🤔
