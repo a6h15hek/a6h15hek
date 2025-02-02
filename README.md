@@ -54,8 +54,8 @@ If you're looking for a passionate, innovative, and driven Full-Stack Developer 
 ![Planning](https://img.shields.io/badge/planning-%23000000.svg?style=for-the-badge&logo=calendar&logoColor=white)
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=a6h15hek&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api?username=a6h15hek&show=prs_merged,prs_merged_percentage&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=a6h15hek&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=a6h15hek&show=prs_merged,prs_merged_percentage&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 
 
 ##  Have Questions || Suggestions ?! 🤔
