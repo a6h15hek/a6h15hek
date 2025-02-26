@@ -8,11 +8,9 @@
 
 ---
 ## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="24px">,
-I am a Computer Science Engineer and Full-Stack Developer based in Maharashtra, India.
 
-My passion lies in developing exceptional digital solutions that enhance people's lives. My expertise includes developing mobile applications, creating web apps, and building robust backend servers. I enjoy working on cool projects and am fascinated by the entire full-stack spectrum, from the front-end to the back-end. I have a track record of collaborating with like-minded people to deliver successful solutions that exceed client expectations.
+I am an Engineer. I love creating things and am passionate about building awesome things that improves the lives of those around me. People see code, I see patterns, structure, and algorithm in everything around me. This helps me understand and create more of these things. For now, My work includes developing mobile applications, making awesome web apps, creating strong backend servers, and integrating cool AI. Always interested to make amazing things and work on ambitious projects with like-minded people. Ping me for side projects or ideas—let’s do it together!
 
-If you're looking for a passionate, innovative, and driven Full-Stack Developer to bring your project to life, let's work together and create something truly awesome."
        
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
