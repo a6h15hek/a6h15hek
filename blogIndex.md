@@ -10,6 +10,15 @@ keywords: system design, notes
 draft: true
 filename: data-structure.md
 =====
+unique_id: ID02-02-2025
+type: blog
+published_on: 02 February 2025
+title: Pancake Sync MyProjects
+description: Discover how Pancake revolutionizes project management for developers juggling multiple projects. Learn how this powerful command-line tool centralizes tasks, automates tool setups, and simplifies environment migration—so you can focus on coding, not configuration. 
+keywords: Pancake CLI, project management tool, developer productivity, automate setup, command-line tools, workflow optimization, sync projects, development environment, multi-project management
+draft: false
+filename: pancake.md
+=====
 unique_id: ID29-09-2024
 type: blog
 published_on: 29 September 2024
@@ -36,15 +45,6 @@ description: Explore effective function-level logging with practical tips for cl
 keywords: logs,best_practices
 draft: false
 filename: effective-logging-for-functions.md
-=====
-unique_id: ID02-02-2025
-type: blog
-published_on: 02 February 2025
-title: Pancake Sync MyProjects
-description: Discover how Pancake revolutionizes project management for developers juggling multiple projects. Learn how this powerful command-line tool centralizes tasks, automates tool setups, and simplifies environment migration—so you can focus on coding, not configuration. 
-keywords: Pancake CLI, project management tool, developer productivity, automate setup, command-line tools, workflow optimization, sync projects, development environment, multi-project management
-draft: false
-filename: pancake.md
 =====
 unique_id: ID29-09-2024
 type: blog
