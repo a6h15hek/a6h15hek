@@ -32,7 +32,7 @@ Sync all your projects with a single command. Pancake clones or updates multiple
 **- One-Click Build & Run**  
 Predefine build and run commands for each project, and execute them with a single line. Pancake eliminates the need to remember complex commands, letting you focus on coding instead of configuration.  
 
-**- Seamless Tool Management**  
+**- Seamless Tools Management**  
 Install, update, or remove tools like `tree` or `npm` effortlessly. Pancake integrates with Homebrew (macOS/Linux) and Chocolatey (Windows), ensuring your dev tools are always up to date.  
 
 **- IDE Integration Made Easy**  
@@ -60,14 +60,14 @@ Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw
 
 ## ⊿ Getting Started  
 
-### Step 1: Initialize Pancake  
+### Step 1 - Initialize Pancake  
 After installing, run:  
 ```bash  
 pancake init  
 ```  
 This creates `~/pancake.yml`—your central configuration file.  
 
-### Step 2: Configure Your Projects  
+### Step 2 - Configure Your Projects  
 Edit the config file:  
 ```bash  
 pancake edit config  
@@ -90,7 +90,7 @@ projects:
     build: npm install  
 ```  
 
-### Step 3: Sync Projects  
+### Step 3 - Sync Projects  
 Sync all projects:  
 ```bash  
 pancake sync  
@@ -100,7 +100,7 @@ Or sync a specific project:
 pancake sync react-app  
 ```  
 
-### Step 4: Build, Run, and Monitor  
+### Step 4 - Build, Run, and Monitor  
 - **Open in IDE**: ```pancake open spring-boot```  
 - **Build**: ```pancake build react-app```  
 - **Run**: ```pancake run react-app```  
@@ -129,7 +129,7 @@ Supports **Homebrew** (macOS/Linux) and **Chocolatey** (Windows).
 
 ---
 
-## ○ In Progress: Pancake GPT  
+## ○ In Progress - Pancake GPT  
 
 Describe commands in plain English, and Pancake GPT will generate and execute them:  
 ```bash  
