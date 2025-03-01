@@ -2,14 +2,14 @@
 unique_id: ID02-02-2025
 type: blog
 published_on: 02 February 2025
-title: Pancake Sync MyProjects
+title: Pancake - Sync My Projects
 description: Discover how Pancake revolutionizes project management for developers juggling multiple projects. Learn how this powerful command-line tool centralizes tasks, automates tool setups, and simplifies environment migration—so you can focus on coding, not configuration. 
 keywords: Pancake CLI, project management tool, developer productivity, automate setup, command-line tools, workflow optimization, sync projects, development environment, multi-project management
 draft: false
 ---
 
 
-# Pancake Sync MyProjects
+# Pancake: Sync My Projects
 
 Tired of juggling multiple projects, remembering complex commands, and setting up development environments from scratch? Meet **Pancake**—a command-line tool designed to simplify your workflow, sync projects effortlessly, and make your developer life deliciously easy. 
 
