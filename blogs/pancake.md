@@ -11,7 +11,7 @@ draft: false
 
 # Pancake Sync MyProjects
 
-Tired of juggling multiple projects, remembering complex commands, and setting up development environments from scratch? Meet **Pancake**—a command-line tool designed to simplify your workflow, sync projects effortlessly, and make your developer life deliciously easy. 🥞  
+Tired of juggling multiple projects, remembering complex commands, and setting up development environments from scratch? Meet **Pancake**—a command-line tool designed to simplify your workflow, sync projects effortlessly, and make your developer life deliciously easy. 
 
 ---
 
@@ -26,24 +26,24 @@ As developers, we often work on multiple projects simultaneously. Each project h
 
 ---
 
-## 🚀 Key Features  
+## Key Features  
 
-1. **Sync Projects from Remote Repos**  
-   Clone or update multiple projects in one go.  
-2. **Build & Run Projects**  
-   Predefine build/run commands per project—execute them with a single line.  
-3. **Tool Management**  
-   Install, update, or remove tools (e.g., `tree`, `npm`) effortlessly.  
-4. **IDE Integration**  
-   Open projects directly in VS Code, IntelliJ, or your favorite editor.  
-5. **Monitor Projects**  
-   Track ports, process IDs, and uptime for running applications.  
-6. **Migrate Your Setup**  
-   Copy `pancake.yml` to another machine, run `pancake init`, and your entire environment is ready.  
+**Sync Projects from Remote Repos**  
+Clone or update multiple projects in one go.  
+**Build & Run Projects**  
+Predefine build/run commands per project—execute them with a single line.  
+**Tool Management**  
+Install, update, or remove tools (e.g., `tree`, `npm`) effortlessly.  
+**IDE Integration**  
+Open projects directly in VS Code, IntelliJ, or your favorite editor.  
+**Monitor Projects**  
+Track ports, process IDs, and uptime for running applications.  
+**Migrate Your Setup**  
+Copy `pancake.yml` to another machine, run `pancake init`, and your entire environment is ready.  
 
 ---
 
-## 📥 Installation  
+## Installation  
 
 **macOS/Linux**:  
 ```bash  
@@ -55,10 +55,9 @@ As developers, we often work on multiple projects simultaneously. Each project h
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/a6h15hek/pancake/main/windows.ps1')) install  
 ```  
 
-
 ---
 
-## 🍳 Getting Started  
+## Getting Started  
 
 ### Step 1: Initialize Pancake  
 After installing, run:  
@@ -84,6 +83,8 @@ projects:
 
   react-app:  
     remote_ssh_url: git@github.com:your-username/react-app.git  
+    type: web
+    port: "3000"
     run: npm start  
     build: npm install  
 ```  
@@ -106,7 +107,7 @@ pancake sync react-app
 
 ---
 
-## 🛠️ Tool Management  
+## Tool Management  
 
 Install tools with a single command:  
 ```bash  
@@ -118,7 +119,7 @@ Supports **Homebrew** (macOS/Linux) and **Chocolatey** (Windows).
 
 ---
 
-## 🔄 Migrate Your Setup  
+## Migrate Your Setup  
 
 1. Copy `~/pancake.yml` to your new machine.  
 2. Run:  
@@ -129,7 +130,7 @@ Supports **Homebrew** (macOS/Linux) and **Chocolatey** (Windows).
 
 ---
 
-## 🚧 Coming Soon: Pancake GPT  
+## In Progress: Pancake GPT  
 
 Describe commands in plain English, and Pancake GPT will generate and execute them:  
 ```bash  
@@ -147,7 +148,7 @@ pancake gpt "build my spring-boot project and open it in VS Code"
 
 ---
 
-## 🥞 Get Started Today!  
+## Get Started Today!  
 
 Ready to simplify your workflow? Install Pancake and take control of your projects:  
 
@@ -162,4 +163,4 @@ pancake init && pancake sync
 
 ---  
 
-Focus on coding—not configuration. Let Pancake handle the rest. 🚀  
+Focus on coding—not configuration. Let Pancake handle the rest. 🚀 
