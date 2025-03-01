@@ -10,24 +10,6 @@ keywords: system design, notes
 draft: true
 filename: data-structure.md
 =====
-unique_id: ID29-09-2024
-type: blog
-published_on: 29 September 2024
-title: React Notes
-description: React Notes
-keywords: react, notes
-draft: true
-filename: react-notes.md
-=====
-unique_id: ID06-12-2023
-type: blog
-published_on: 6 December 2023
-title: Effective Logging for Function
-description: Explore effective function-level logging with practical tips for clear and insightful logs.
-keywords: logs,best_practices
-draft: false
-filename: effective-logging-for-functions.md
-=====
 unique_id: ID02-02-2025
 type: blog
 published_on: 02 February 2025
@@ -46,6 +28,15 @@ keywords: system design, notes
 draft: true
 filename: system-design-notes.md
 =====
+unique_id: ID06-12-2023
+type: blog
+published_on: 6 December 2023
+title: Effective Logging for Function
+description: Explore effective function-level logging with practical tips for clear and insightful logs.
+keywords: logs,best_practices
+draft: false
+filename: effective-logging-for-functions.md
+=====
 unique_id: ID05-10-2024
 type: blog
 published_on: 05 October 2024
@@ -54,6 +45,15 @@ description: A microapp is a small, focused application designed to efficiently 
 keywords: microapp, microservice, microfrontend, webpack, react, java, spring boot
 draft: false
 filename: microapp.md
+=====
+unique_id: ID29-09-2024
+type: blog
+published_on: 29 September 2024
+title: React Notes
+description: React Notes
+keywords: react, notes
+draft: true
+filename: react-notes.md
 ---
 
 # Hello World!! , 
