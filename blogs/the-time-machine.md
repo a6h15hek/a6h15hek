@@ -50,6 +50,10 @@ For now, let’s stop at the **4th dimension** and discuss **time**.
                       • • • • •     
 ```
 
+**A Mathematician's Guided Tour Through Higher Dimensions**  
+https://www.wired.com/story/a-mathematicians-guided-tour-through-higher-dimensions/  
+Even if you don’t read it, take a look at the images.
+
 ### Time: The Fourth Dimension
 For our cube:
 Its creation can be described as two points creating a line, four lines creating a face, and six faces creating a cube. However, a cube cannot exist if all dimensions are not applied to it. For now, let’s ignore other dimensions and focus on what happens if the fourth dimension is missing. Since the fourth dimension is time, imagine the cube we created is given a fourth dimension of 1 second. In this case, the cube would only exist for 1 second in our world before ceasing to exist. If we set the fourth dimension to 0, it would be as if the cube never existed at all. Something can be created with length, breadth, and height, but without time, its existence is equivalent to nothing. Each dimension is as important to the lower dimensions as the higher ones.
@@ -81,6 +85,9 @@ If a three-dimensional (3D) object, like a sphere, passes through the 2D world, 
 
 Carl Sagan uses this idea to explain how we, as 3D beings, might struggle to understand higher dimensions (like the fourth dimension). Just as the 2D beings can’t fully grasp a 3D object, we might have a hard time imagining what a 4D object would look like. 
 
+Watch this Video \
+[![Video Thumbnail](https://img.youtube.com/vi/UnURElCzGc0/0.jpg)](https://www.youtube.com/watch?v=UnURElCzGc0)
+
 ---
 
 It’s hard, but let’s still do it. For now, we will be using the same words as Carl Sagan. We already know how our 3D world exists, so no explanation is needed.
@@ -92,9 +99,14 @@ If a fourth-dimensional (4D) object, like a sphere, passes through the 3D world,
 
 For our cube, it would be seen as a tiny cube appearing. It might be so small that it initially appears as a tiny dot to a human. As it grows bigger, it becomes visible as a cube, continuing to grow until it reaches its maximum size. Then, it shrinks back into a smaller cube, eventually becoming a tiny dot again before disappearing.
 
-So if in your life if you see anything any object appearing from nowhere and getting bigger in size you can think maybe its traveling. Think of it if suppose our time stops and no clock is moving and a object is traveling from future to past it will appears as object apperaing from nowhere and if it want to stop at our time not go further in the past it will just reach to its maximum size and did not shrink. and if it want to go to further in the past it will keep shrinking and appearing in another time. So we can assume if we want to create a time machine that can send a object in the past then we have to shrink it but not physically. Its mass will be same, it will be like its shrinking in a instance of time and growing in another and vice versa. if it happens so fast as speed of light it can be seen as object got created in a instance. it will be seen like it never grow or shrink it just appeared. its like seeing a land when its empty and now there is multi stories building. But there was a huge time and process was there between creating building on land.
+If in your life you see any object appearing from nowhere and getting bigger in size, you should think it is traveling through time. Imagine if time stops, and no clock is moving, and an object is traveling from the future to the past. It would appear as if the object is emerging from nowhere. If it wants to stop at our current time and not go further into the past, it will reach its maximum size and not shrink. However, if it intends to go further into the past, it will keep shrinking and reappearing at another point in time.
 
-Extending this logic, we can also say that 
+From this, we can assume that if we want to create a time machine capable of sending an object into the past, we would need to shrink it—but not physically. Its mass would remain the same; it would be as if the object is shrinking in one instance of time and growing in another, and vice versa.
+
+If this process happens as fast as the speed of light, the object would appear to be created in an instant. It would seem as though it never grew or shrank but simply appeared and disappeared. It would be like seeing an empty piece of land one moment and a multi-story building the next. However, in reality, there was a significant amount of time and a complex process involved in constructing the building on the land.
+
+
+Extending this logic, 
 ```
                             
                       • • • • •     
@@ -103,12 +115,18 @@ Extending this logic, we can also say that
                       • • • • •   
                       • • • • •     
 ```
-like in this example similar dots create a line and similar lines create plane. Our time is created layer must have been created using space. Mean every instance of time have their own space. We always travel though time in future second by second. we can say that after every second we travel to a new similar space. time is made up of layers of space. After every every instance we travel to new space, new world, new universe. For every instance of time there is new space. 
+higher dimensions are created from lower dimensions. Just as similar dots create a line, and similar lines create a plane, our concept of time must have been created using layers of space. Therefore, when we travel through time, we are essentially traveling through layers of space. This means that every instance of time has its own corresponding space.
 
-In our world if i am standing on a plane surface, my x y z axis will not change but if i am standing on a slope and slope where there is no friction i will keep sliding. imagine a infinite slope then i will keep falling from it forever without doing anything. Maybe this is similar to our how the time is created its a slope, even if are not doing anything it keeps flowing and the angle of the slope decided how much will be the speed of time. 
+We are always moving through time, advancing into the future moment by moment. Each second, we enter a new, similar space. In this view, time is like layers of space stacked together. With every passing moment, we shift to a new space, a new world, or even a new universe. For every moment in time, there is a corresponding new space.
 
-if we are falling from the infinite slope of time then everything that is happened and everything that is going to happen is all written. As time is created from layers of spaces then all the spaces is already been created we are just moving through them infinitely.
+This is similar to how frames change in a video. In a video, there is a new image for every fraction of a second, creating the illusion of continuous motion. However, it is just a series of individual images rolling so fast that we perceive it as a seamless video. Similarly, time could be thought of as layers of space rolling continuously, giving us the illusion of a flowing, unified reality.
 
-Its a possibility also that the future is written first then the present aand then past. we cannot determine the order which comes first. its like a highway you don't know from where they started creating it, it might be created from middle  or at end and then start. or start end and middle at the same time. 
 
-By default we are all time travels in biggest time machine. that takes to new spaces every second or micro second or any smallets unit of time that exists.
+In our world, if I am standing on a flat surface, my x, y, and z axes will not change. However, if I am standing on a slope with no friction, I will keep sliding. Imagine an infinite slope, I would keep falling forever without doing anything. Perhaps this is similar to how time is created. Time could be like a slope; even if we are not doing anything, it keeps flowing, and the angle of the slope determines the speed of time.
+
+If we are falling along the infinite slope of time, it means the slope is already in place, and all the layers of space that make up time already exist. This implies that everything that has happened and everything that will happen is already determined. We are simply moving through these pre-existing layers of space endlessly.
+
+It is also possible that the future is written first, then the present, and then the past. We cannot determine the order in which they come into existence. It is like a highway—you don’t know where they started building it. It might have been created from the middle, the end, or even the start. Alternatively, the start, middle, and end could have been created simultaneously.
+
+By default, we are all time travelers in the biggest time machine, one that takes us to new spaces every second, microsecond, or the smallest unit of time that exists.
+
