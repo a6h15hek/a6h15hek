@@ -18,7 +18,7 @@ Let’s use simple math to construct a object. Lets create a Cube.
 
 Combining **two 0th-dimensional** (points object) creates a **1st-dimensional object**—a line. \
 Combining **four 1st-dimensional** (lines object) forms a **2nd-dimensional object**—a plane. \
-Combining **six 2nd-dimensional** (planes object) results in a **3rd-dimensional object**—a space (which humans can perceive). \
+Combining **six 2nd-dimensional** (planes object) results in a **3rd-dimensional object**—a space (which humans can perceive). 
 - This pattern continues into higher dimensions.
 
 There is no strict order for creating a line, then a plane, and then a space. I could also refer to the 3rd dimension as time and the 4th as space. However, for the sake of convention, let’s maintain this order. For example, in daily life, when building a wall, it doesn’t matter whether you first arrange all the bricks horizontally and then stack them vertically, or if you start by placing bricks vertically one above another and then continue horizontally—both methods will eventually give you a wall.
@@ -49,9 +49,8 @@ For now, let’s stop at the **4th dimension** and discuss **time**.
                       • • • • •    • • • • • •
                       • • • • •     
 ```
-
-**A Mathematician's Guided Tour Through Higher Dimensions**  
-https://www.wired.com/story/a-mathematicians-guided-tour-through-higher-dimensions/  
+Read this: \
+[A Mathematician's Guided Tour Through Higher Dimensions](https://www.wired.com/story/a-mathematicians-guided-tour-through-higher-dimensions/) \
 Even if you don’t read it, take a look at the images.
 
 ### Time: The Fourth Dimension
