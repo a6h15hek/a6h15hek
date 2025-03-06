@@ -22,6 +22,15 @@ filename: microapp.md
 unique_id: ID29-09-2024
 type: blog
 published_on: 29 September 2024
+title: System Design Notes
+description: System Design Notes
+keywords: system design, notes
+draft: true
+filename: system-design-notes.md
+=====
+unique_id: ID29-09-2024
+type: blog
+published_on: 29 September 2024
 title: React Notes
 description: React Notes
 keywords: react, notes
@@ -54,15 +63,6 @@ description: Discover how Pancake revolutionizes project management for develope
 keywords: Pancake CLI, project management tool, developer productivity, automate setup, command-line tools, workflow optimization, sync projects, development environment, multi-project management
 draft: false
 filename: pancake.md
-=====
-unique_id: ID29-09-2024
-type: blog
-published_on: 29 September 2024
-title: System Design Notes
-description: System Design Notes
-keywords: system design, notes
-draft: true
-filename: system-design-notes.md
 ---
 
 # Hello World!! , 
