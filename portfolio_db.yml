@@ -90,6 +90,9 @@
     info: |
       - I work as a Full-stack Software Engineer, where my responsibilities include contributing to the development of applications and new features, writing and testing code, debugging issues, and implementing new features that enhance the usability and user-friendliness of the software. <br/><br/>
       - Overall, my job is to create high-quality software that meets the needs of the end-users and delivers a great user experience.
+- tag: ARTICULATIONANIMATIONCARD
+  className: black-cd 
+  component: ARTICULATIONANIMATIONCARD
 - tag: job2
   className: cyan-cd wx2 hx2
   component: JOBCARD
@@ -245,6 +248,9 @@
   metaData:
     src: https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/ornament.svg
     alt: ornament
+- tag: MNEMONICSANIMATIONCARD
+  className: black-cd
+  component: MNEMONICSANIMATIONCARD
 - tag: linkedin
   className: ""
   component: ICON_COMPONENT
@@ -293,7 +299,7 @@
 - tag: spnningsquare
   className: black-cd
   component: SPINNINGSQUARECARD
-- tag: frame
+- tag: mushroom
   className: red-cd
   component: IMAGECARD
   metaData:
@@ -325,8 +331,9 @@
         iconClassName: bi bi-github
         link: https://github.com/a6h15hek/satellite-dashboard
         assistantMsg: Opening PHP Satellite Dashboard code repository!
-- tag: 45
-  className: yellow-cd
+- tag: CONFUSIONANIMATIONCARD
+  className: black-cd
+  component: CONFUSIONANIMATIONCARD
 - tag: project3
   className: orange-cd wx2 hx2
   component: PROJECTCARD
@@ -376,6 +383,9 @@
         assistantMsg: Opening PHP Satellite code repository!
 - tag: 45
   className: purple-cd
+- tag: PHONOLOGICALANIMATIONCARD
+  className: black-cd
+  component: PHONOLOGICALANIMATIONCARD
 - tag: tulip
   className: cyan-cd
   component: IMAGECARD
@@ -398,6 +408,11 @@
         iconClassName: bi bi-cloud-download
         link: https://a6h15hek.github.io/bunksquad-website/
         assistantMsg: Opening BunkSquad App Download Page!
+- tag: ESTIMATEANIMATIONCARD
+  className: black-cd
+  component: ESTIMATEANIMATIONCARD
+- tag: 39
+  className: red-cd
 - tag: project6
   className: violet-cd wx2 hx2 text-white
   component: PROJECTCARD
@@ -414,6 +429,9 @@
         iconClassName: bi bi-github text-white
         link: https://github.com/a6h15hek/pancake
         assistantMsg: Opening pancake code repository!
+- tag: DYSLEXIAANIMATIONCARD
+  className: black-cd
+  component: DYSLEXIAANIMATIONCARD
 - tag: project7
   className: magenta-cd wx2 hx3
   component: PROJECTCARD
@@ -508,8 +526,9 @@
   metaData:
     src: https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/images/portfolio/shiva.svg
     alt: circle
-- tag: 45
-  className: blue-cd
+- tag: INATTENTIVEANIMATIONCARD
+  className: black-cd
+  component: INATTENTIVEANIMATIONCARD
 - tag: 45
   className: yellow-cd
 - tag: 45
@@ -531,8 +550,9 @@
     task:
       link: /blogs
       assistantMsg: Opening Super Blogs!
-- tag: 45
-  className: green-cd
+- tag: animation-RejectionAnimation
+  className: black-cd
+  component: REJECTIONANIMATIONCARD
 - tag: 45
   className: teal-cd wx2
   component: TEXTCARD
