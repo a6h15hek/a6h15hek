@@ -182,7 +182,7 @@
           link: mailto:abhishekyadav@duck.com
         website:
           name: portfolio/abhishekyadav
-          link: https://theabhishekmyadav.web.app/
+          link: https://abhishek-me.web.app/
         github:
           name: github/a6h15hek
           link: https://github.com/a6h15hek
@@ -402,10 +402,10 @@
   className: violet-cd wx2 hx2 text-white
   component: PROJECTCARD
   metaData:
-    name: Pancake Project Management Tool
+    name: Pancake Syncs
     nameExtraClass: black-cd
     details: |
-      + Pancake is a versatile tool designed to streamline your project management workflow. It simplifies running web and server modules, monitors application status, and offers customizable project locations and override files. Best of all, you can run and open projects from anywhere!
+      + Streamlines your project management workflow, simplifies syncing multiple projects from remote repositories, helps build and run projects on a local machine, and allows for the installation, uninstallation, and updating of development software and tools. No need to remember longer commands. Share your entire development setup with your work buddies
     timeline: March 2024
     moreInfo: |
       Created for personal project management, it is helpful in remote syncing, building, running multiple projects.
