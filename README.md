@@ -3,15 +3,15 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-AbhishekYadav-%230A66C2?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/a6h15hek)](https://www.linkedin.com/in/a6h15hek/)
 [![Email](https://img.shields.io/badge/Email-abhishekyadav%40duck.com-%23D14836?style=flat-square&logo=gmail&logoColor=white&link=mailto:abhishekyadav@duck.com)](mailto:abhishekyadav@duck.com)
 [![Resume](https://img.shields.io/badge/Resume-View-%23FF0000?style=flat-square&logo=adobe-acrobat-reader&logoColor=white&link=https://a6h15hek.github.io/a6h15hek/abhishek_yadav_resume.pdf)](https://a6h15hek.github.io/a6h15hek/abhishek_yadav_resume.pdf)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-%236E40C9?style=flat-square&logo=google-chrome&logoColor=white&link=https://theabhishekmyadav.web.app/)](https://abhishek-me.web.app/)
-[![Blog](https://img.shields.io/badge/Blog-Read-%234CAF50?style=flat-square&logo=medium&logoColor=white&link=https://theabhishekmyadav.web.app/blogs)](https://theabhishekmyadav.web.app/blogs)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View-%236E40C9?style=flat-square&logo=google-chrome&logoColor=white&link=https://abhishek-me.web.app/)](https://abhishek-me.web.app/)
+[![Blog](https://img.shields.io/badge/Blog-Read-%234CAF50?style=flat-square&logo=medium&logoColor=white&link=https://abhishek-me.web.app/blogs)](https://abhishek-me.web.app/blogs)
 
 ---
 ## Hello World <img src="https://raw.githubusercontent.com/a6h15hek/a6h15hek/master/gifs/Hii.gif" width="24px">,
 
 I am an Engineer. I love creating things and am passionate about building awesome things that improves the lives of those around me. People see code, I see patterns, structure, and algorithm in everything around me. This helps me understand and create more of these things. For now, My work includes developing mobile applications, making awesome web apps, creating strong backend servers, and integrating cool AI. Always interested to make amazing things and work on ambitious projects with like-minded people. Ping me for side projects or ideas—let’s do it together!
 
-Checkout my portfolio: https://theabhishekmyadav.web.app/
+Checkout my portfolio: https://abhishek-me.web.app/
        
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
