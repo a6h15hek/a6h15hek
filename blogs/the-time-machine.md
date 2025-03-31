@@ -1,7 +1,7 @@
 ---
 unique_id: ID02-02-2025
 type: blog
-published_on: 02 February 2025
+published_on: 14 March 2025
 title: The Time Machine - Chapter I
 description: A fiction that could be reality. It describes how a real time machine could work and what happens when we send an object into the past.
 keywords: time, space
