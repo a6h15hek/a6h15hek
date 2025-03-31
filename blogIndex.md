@@ -1,6 +1,15 @@
 ---
 siteTitle: SuperBlogs
 =====
+unique_id: ID29-09-2024
+type: blog
+published_on: 29 September 2024
+title: Data structure Notes
+description: Data structure Notes
+keywords: system design, notes
+draft: true
+filename: data-structure.md
+=====
 unique_id: ID05-10-2024
 type: blog
 published_on: 05 October 2024
@@ -13,11 +22,11 @@ filename: microapp.md
 unique_id: ID29-09-2024
 type: blog
 published_on: 29 September 2024
-title: Data structure Notes
-description: Data structure Notes
+title: System Design Notes
+description: System Design Notes
 keywords: system design, notes
 draft: true
-filename: data-structure.md
+filename: system-design-notes.md
 =====
 unique_id: ID06-12-2023
 type: blog
@@ -31,15 +40,6 @@ filename: effective-logging-for-functions.md
 unique_id: ID29-09-2024
 type: blog
 published_on: 29 September 2024
-title: System Design Notes
-description: System Design Notes
-keywords: system design, notes
-draft: true
-filename: system-design-notes.md
-=====
-unique_id: ID29-09-2024
-type: blog
-published_on: 29 September 2024
 title: React Notes
 description: React Notes
 keywords: react, notes
@@ -49,20 +49,20 @@ filename: react-notes.md
 unique_id: ID02-02-2025
 type: blog
 published_on: 02 February 2025
-title: The Time Machine - Chapter I
-description: A fiction that could be reality. It describes how a real time machine could work and what happens when we send an object into the past.
-keywords: time, space
-draft: false
-filename: the-time-machine.md
-=====
-unique_id: ID02-02-2025
-type: blog
-published_on: 02 February 2025
 title: Pancake - Sync My Projects
 description: Discover how Pancake revolutionizes project management for developers juggling multiple projects. Learn how this powerful command-line tool centralizes tasks, automates tool setups, and simplifies environment migration—so you can focus on coding, not configuration. 
 keywords: Pancake CLI, project management tool, developer productivity, automate setup, command-line tools, workflow optimization, sync projects, development environment, multi-project management
 draft: false
 filename: pancake.md
+=====
+unique_id: ID02-02-2025
+type: blog
+published_on: 14 March 2025
+title: The Time Machine - Chapter I
+description: A fiction that could be reality. It describes how a real time machine could work and what happens when we send an object into the past.
+keywords: time, space
+draft: false
+filename: the-time-machine.md
 ---
 
 # Hello World!! , 
