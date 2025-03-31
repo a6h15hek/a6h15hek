@@ -2,10 +2,10 @@
 unique_id: ID02-02-2025
 type: blog
 published_on: 02 February 2025
-title: The Time Machine
-description: A fiction that can be reality.
+title: The Time Machine - Chapter I
+description: A fiction that could be reality. It describes how a real time machine could work and what happens when we send an object into the past.
 keywords: time, space
-draft: true
+draft: false
 ---
 
 # The Time Machine
@@ -128,3 +128,10 @@ If time is like this slope, then all of existence—past, present, and future—
 
 This raises a strange possibility: the future might have been "written" first, then the present, then the past. We can’t know the order in which time was constructed—just like a highway. Was it built from the beginning, the middle, or the end? Or maybe all parts were created at once.
 
+Think of time like a film being shot in four dimensions. Instead of just frames (3D snapshots), each moment is a complete space placed along time—like "Spaces Per Second" (SPS) instead of "Frames Per Second" (FPS). It doesn’t matter which scene was filmed first—what matters is how the spaces are arranged in the final cut. From our perspective, we’re just watching the movie play out in order, moment by moment. But the entire film—past, present, and future—might have been created all at once, just waiting for us to experience it.
+
+---
+
+Whenever I observe and think about time and space, these are all the ideas that come to my mind. I like to create my own theories and assumptions—they might be partly correct or completely wrong. Still, I want to understand how things work and imagine them in my own way. If you'd like to correct me on anything, feel free to send me a message. You can find my email on my portfolio, or there’s also a section where you can message me directly.
+
+Thank you for reading this blog. _Sayonara!_
