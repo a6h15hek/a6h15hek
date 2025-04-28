@@ -383,6 +383,9 @@
         assistantMsg: Opening PHP Satellite code repository!
 - tag: 45
   className: purple-cd
+- tag: PHONOLOGICALANIMATIONCARD
+  className: black-cd
+  component: PHONOLOGICALANIMATIONCARD
 - tag: tulip
   className: cyan-cd
   component: IMAGECARD
