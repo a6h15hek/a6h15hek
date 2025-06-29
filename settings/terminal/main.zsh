@@ -3,6 +3,34 @@
 # sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/Library/powerlevel10k
 # $ echo 'source ~/Library/powerlevel10k/powerlevel10k.zsh-theme' >>! /Users/unicorn/pancake/a6h15hek/settings/terminal_ui.zsh
+# Disable a mark setting, after pressing cmd + ,
+
+# curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# ----------Once Vim Plug is installed, edit ~/.vimrc:---
+# call plug#begin('~/.vim/plugged')
+# Plug 'vim-airline/vim-airline'
+# Plug 'vim-airline/vim-airline-themes'
+# call plug#end()
+# -------------------------------------
+
+# $ git clone https://github.com/powerline/fonts.git --depth=1
+# $ cd fonts
+# $ ./install.sh
+# $ cd ..
+# $ rm -rf fonts
+
+# $ brew install fzf
+# # To install useful key bindings and fuzzy completion:
+# $ $(brew --prefix)/opt/fzf/install
+
+# Add some useful FZF options in the ~/.zshrc:
+
+# ---------------
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# export FZF_DEFAULT_OPTS=‘—height=40% —preview=“cat {}” —preview-window=right:60%:wrap’
+# ---------------
+
 
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
