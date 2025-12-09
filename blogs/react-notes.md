@@ -129,5 +129,10 @@ boundGreet(); // Alice
 apply: Similar to call, but takes an array of arguments.
 JavaScript
 ```javascript
-greet.apply(person, []); // Alice
+function greet2(arg1, arg2){
+    
+}
+
+const person = { name: 'Alice' };
+greet2.apply(person, ['1','2']); // Alice
 ```
